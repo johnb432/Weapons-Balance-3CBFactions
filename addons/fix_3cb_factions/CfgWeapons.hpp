@@ -1,7 +1,5 @@
 class asdg_UnderSlot;
-class asdg_OpticRailL1A1;
 class asdg_OpticRail1913;
-class asdg_MuzzleSlot_556;
 class rhs_russian_rifle_scopes_slot;
 class rhs_western_rifle_laser_slot_top;
 
@@ -254,16 +252,6 @@ class CfgWeapons {
             "rhsusf_100Rnd_762x51_m993",
             "150Rnd_762x51_Box",
             "150Rnd_762x51_Box_Tracer",
-            "hlc_100Rnd_762x51_B_M60E4",
-            "hlc_100Rnd_762x51_Mdim_M60E4",
-            "hlc_100Rnd_762x51_M_M60E4",
-            "hlc_100Rnd_762x51_Barrier_M60E4",
-            "hlc_100Rnd_762x51_T_M60E4",
-            "hlc_200Rnd_762x51_B_M60E4",
-            "hlc_200Rnd_762x51_Mdim_M60E4",
-            "hlc_200Rnd_762x51_M_M60E4",
-            "hlc_200Rnd_762x51_Barrier_M60E4",
-            "hlc_200Rnd_762x51_T_M60E4",
             "UK3CB_M60_100rnd_762x51_GT",
             "UK3CB_M60_100rnd_762x51_RT",
             "UK3CB_M60_100rnd_762x51_WT",
@@ -276,12 +264,7 @@ class CfgWeapons {
             "UK3CB_M60_100rnd_762x51_GM",
             "UK3CB_M60_100rnd_762x51_RM",
             "UK3CB_M60_100rnd_762x51_WM",
-            "UK3CB_M60_100rnd_762x51_YM",
-            "sfp_100Rnd_762x51_ksp58",
-            "sfp_249Rnd_762x51_ksp58",
-            "sfp_50Rnd_762x51_ksp58",
-            "sfp_50Rnd_762x51_ksp58_ap",
-            "sfp_50Rnd_762x51_ksp58_irTracer"
+            "UK3CB_M60_100rnd_762x51_YM"
         };
     };
 
@@ -356,15 +339,13 @@ class CfgWeapons {
     class rhs_weap_svdp: rhs_weap_svd {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
-    class UK3CB_SVD_OLD_NPZ: rhs_weap_svdp {
+    class rhs_weap_svdp_npz: rhs_weap_svdp {
+        class WeaponSlotsInfo: WeaponSlotsInfo {};
+    };
+    class UK3CB_SVD_OLD_NPZ: rhs_weap_svdp_npz {
         displayName = "SVD (NPZ)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 85.5;
         };
-    };
-
-    class uk3cb_optic_ZF4x_Base;
-    class uk3cb_optic_STANAGZF2D_G3: uk3cb_optic_ZF4x_Base {
-        picture = "\hlc_core\tex\ui\gear_fnstanag_ca";
     };
 };

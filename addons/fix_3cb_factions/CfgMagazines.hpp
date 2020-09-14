@@ -1,7 +1,6 @@
 class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class 20Rnd_762x51_Mag;
-    class 30Rnd_9x21_Mag;
     class rhsusf_5Rnd_300winmag_xm2010;
     class rhs_mag_30Rnd_556x45_Mk318_Stanag;
     class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red;
