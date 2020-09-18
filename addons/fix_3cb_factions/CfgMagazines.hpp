@@ -1,6 +1,7 @@
 class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class 20Rnd_762x51_Mag;
+    class 30Rnd_9x21_Mag;
     class rhsusf_5Rnd_300winmag_xm2010;
     class rhs_mag_30Rnd_556x45_Mk318_Stanag;
     class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red;
@@ -513,5 +514,14 @@ class CfgMagazines {
     };
     class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
         mass = 4.4;
+    };
+
+    class UK3CB_MP5_30Rnd_Magazine: 30Rnd_9x21_Mag {
+        modelSpecial = "fix_3cb_factions\mesh\magazine\proxy\30Rnd_9x19_MP5";
+        modelSpecialIsProxy = 1;
+    };
+    class UK3CB_MP5_30Rnd_Magazine_R: 30Rnd_9x21_Mag {
+        modelSpecial = "fix_3cb_factions\mesh\magazine\proxy\30Rnd_9x19_MP5";
+        modelSpecialIsProxy = 1;
     };
 };

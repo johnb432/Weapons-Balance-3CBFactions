@@ -16,7 +16,6 @@ class asdg_OpticRailL1A1: asdg_OpticRail {
     };
 };
 
-
 class asdg_MuzzleSlot: asdg_SlotInfo {
     class compatibleItems {};
 };
