@@ -66,7 +66,8 @@ class CfgWeapons {
     };
 
     class UK3CB_G3_Base: Rifle_Base_F {
-        magazineWell[] += {"CBA_762x51_G3","CBA_762x51_G3_L","CBA_762x51_G3_XL"};
+        magazines[] = {"UK3CB_G3_20rnd_762x51"};
+        magazineWell[] = {"UK3CB_G3_762x51_Magazines","CBA_762x51_G3","CBA_762x51_G3_L","CBA_762x51_G3_XL"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class PointerSlot {};
         };
@@ -156,6 +157,7 @@ class CfgWeapons {
     };
 
     class UK3CB_M14_base: Rifle_Base_F {
+        magazines[] = {"UK3CB_M14_20rnd_762x51"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_M14: UK3CB_M14_base {
@@ -236,7 +238,7 @@ class CfgWeapons {
     };
 
     class UK3CB_M60_mounted: LMG_RCWS {
-        magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
+        magazineWell[] += {"M240_762x51","CBA_762x51_LINKS"};
         magazines[] += {
             "rhsusf_50Rnd_762x51",
             "rhsusf_50Rnd_762x51_m61_ap",
@@ -269,7 +271,7 @@ class CfgWeapons {
     };
 
     class UK3CB_MG42_base: Rifle_Base_F {
-        magazineWell[] = {"CBA_762x51_LINKS","CBA_762x51_MG3"};
+        magazineWell[] += {"CBA_762x51_LINKS","CBA_762x51_MG3"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_MG3: UK3CB_MG42_base {
@@ -316,7 +318,7 @@ class CfgWeapons {
     };
 
     class UK3CB_Sten: SMG_02_F {
-        magazineWell[] = {"CBA_9x19_STEN"};
+        magazineWell[] += {"CBA_9x19_STEN"};
         class WeaponSlotsInfo {
             mass = 60;
         };

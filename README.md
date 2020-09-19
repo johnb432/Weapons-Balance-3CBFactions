@@ -143,12 +143,13 @@
         - All (13x) 50Rnd 7.62x51mm G3 drum mags from 2.24kg to 1.36kg
         - All (9x) 20Rnd 7.62x51mm DMR mags from 0.91kg to 0.77kg
         - All (9x) 20Rnd 7.62x51mm M14 mags from 0.91kg to 0.74kg
-        - All (13x) 100Rnd 7.62x51mm M60 belts from 2.64kg to 1.54kg
-        - All (13x) 50Rnd 7.62x51mm MG3 belts from 0.91kg to 1.20kg
-        - All (13x) 100Rnd 7.62x51mm MG3 belts from 1.81kg to 1.54kg
+        - All (13x) 100Rnd 7.62x51mm M60 belts from 2.64kg to 1.47kg
+        - All (13x) 50Rnd 7.62x51mm MG3 belts from 0.91kg to 1.15kg
+        - All (13x) 100Rnd 7.62x51mm MG3 belts from 1.81kg to 1.47kg
         - All (13x) 250Rnd 7.62x51mm MG3 belts from 4.54kg to 3.27kg
         - All (13x) 60Rnd 5.45x39mm AK mags from 1.36kg to 0.80kg
         - All (9x) 10Rnd .303/7.7mm Lee Enfield from 0.07kg to 0.20kg
+        - All (9x) 30Rnd HK33 5.56x45mm mags from 0.57kg to 0.42kg
 
 # Changelog for Weapons balance 29.7.2020
 

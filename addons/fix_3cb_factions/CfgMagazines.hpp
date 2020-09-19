@@ -175,6 +175,34 @@ class CfgMagazines {
         mass = 6.25;
     };
 
+    class UK3CB_HK33_30rnd_556x45: 30Rnd_556x45_Stanag {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_G: 30Rnd_556x45_Stanag {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_R: 30Rnd_556x45_Stanag {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_W: 30Rnd_556x45_Stanag {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_Y: 30Rnd_556x45_Stanag {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_GT: UK3CB_HK33_30rnd_556x45_G {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_RT: UK3CB_HK33_30rnd_556x45_R {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_WT: UK3CB_HK33_30rnd_556x45_W {
+        mass = 9.35;
+    };
+    class UK3CB_HK33_30rnd_556x45_YT: UK3CB_HK33_30rnd_556x45_Y {
+        mass = 9.35;
+    };
+
     class UK3CB_FNFAL_20rnd_762x51: 30Rnd_556x45_Stanag {
         mass = 16.5;
     };
@@ -328,83 +356,35 @@ class CfgMagazines {
     };
 
     class UK3CB_M60_100rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_M60_100rnd_762x51_G: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_M60_100rnd_762x51_R: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_M60_100rnd_762x51_W: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_M60_100rnd_762x51_Y: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_GT: UK3CB_M60_100rnd_762x51_G {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_RT: UK3CB_M60_100rnd_762x51_R {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_WT: UK3CB_M60_100rnd_762x51_W {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_YT: UK3CB_M60_100rnd_762x51_Y {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_GM: UK3CB_M60_100rnd_762x51_G {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_RM: UK3CB_M60_100rnd_762x51_R {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_WM: UK3CB_M60_100rnd_762x51_W {
-        mass = 34;
-    };
-    class UK3CB_M60_100rnd_762x51_YM: UK3CB_M60_100rnd_762x51_Y {
-        mass = 34;
+        mass = 32.34;
     };
 
     class UK3CB_MG3_100rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_MG3_100rnd_762x51_G: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_MG3_100rnd_762x51_R: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_MG3_100rnd_762x51_W: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
+        mass = 32.34;
     };
     class UK3CB_MG3_100rnd_762x51_Y: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_GT: UK3CB_MG3_100rnd_762x51_G {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_RT: UK3CB_MG3_100rnd_762x51_R {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_WT: UK3CB_MG3_100rnd_762x51_W {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_YT: UK3CB_MG3_100rnd_762x51_Y {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_GM: UK3CB_MG3_100rnd_762x51_G {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_RM: UK3CB_MG3_100rnd_762x51_R {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_WM: UK3CB_MG3_100rnd_762x51_W {
-        mass = 34;
-    };
-    class UK3CB_MG3_100rnd_762x51_YM: UK3CB_MG3_100rnd_762x51_Y {
-        mass = 34;
+        mass = 32.34;
     };
 
     class UK3CB_MG3_250rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
@@ -422,70 +402,25 @@ class CfgMagazines {
     class UK3CB_MG3_250rnd_762x51_Y: rhsusf_100Rnd_762x51_m80a1epr {
         mass = 72;
     };
-    class UK3CB_MG3_250rnd_762x51_GT: UK3CB_MG3_250rnd_762x51_G {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_RT: UK3CB_MG3_250rnd_762x51_R {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_WT: UK3CB_MG3_250rnd_762x51_W {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_YT: UK3CB_MG3_250rnd_762x51_Y {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_GM: UK3CB_MG3_250rnd_762x51_G {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_RM: UK3CB_MG3_250rnd_762x51_R {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_WM: UK3CB_MG3_250rnd_762x51_W {
-        mass = 72;
-    };
-    class UK3CB_MG3_250rnd_762x51_YM: UK3CB_MG3_250rnd_762x51_Y {
-        mass = 72;
-    };
 
     class UK3CB_MG3_50rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 26.5;
+        mass = 25.41;
     };
     class UK3CB_MG3_50rnd_762x51_G: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 26.5;
+        mass = 25.41;
     };
     class UK3CB_MG3_50rnd_762x51_R: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 26.5;
+        mass = 25.41;
     };
     class UK3CB_MG3_50rnd_762x51_W: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 26.5;
+        mass = 25.41;
     };
     class UK3CB_MG3_50rnd_762x51_Y: rhsusf_100Rnd_762x51_m80a1epr {
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_GT: UK3CB_MG3_50rnd_762x51_G {
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_RT: UK3CB_MG3_50rnd_762x51_R {
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_WT: UK3CB_MG3_50rnd_762x51_W {
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_YT: UK3CB_MG3_50rnd_762x51_Y {
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_GM: UK3CB_MG3_50rnd_762x51_G {
-        mass = 26.5;
+        mass = 25.41;
     };
     class UK3CB_MG3_50rnd_762x51_RM: UK3CB_MG3_50rnd_762x51_R {
         displayname = "50rnd MG3 M80/M62 Mixed Belt (Red)";
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_WM: UK3CB_MG3_50rnd_762x51_W {
-        mass = 26.5;
-    };
-    class UK3CB_MG3_50rnd_762x51_MT: UK3CB_MG3_50rnd_762x51_Y {
-        mass = 26.5;
+        mass = 25.41;
     };
 
     class UK3CB_Enfield_10rnd_Mag: rhsusf_5Rnd_300winmag_xm2010 {
@@ -514,14 +449,5 @@ class CfgMagazines {
     };
     class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
         mass = 4.4;
-    };
-
-    class UK3CB_MP5_30Rnd_Magazine: 30Rnd_9x21_Mag {
-        modelSpecial = "fix_3cb_factions\mesh\magazine\proxy\30Rnd_9x19_MP5";
-        modelSpecialIsProxy = 1;
-    };
-    class UK3CB_MP5_30Rnd_Magazine_R: 30Rnd_9x21_Mag {
-        modelSpecial = "fix_3cb_factions\mesh\magazine\proxy\30Rnd_9x19_MP5";
-        modelSpecialIsProxy = 1;
     };
 };
