@@ -324,30 +324,8 @@ class CfgWeapons {
         };
     };
 
-    class rhs_weap_ak74m_Base_F: Rifle_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class rhs_weap_ak74m: rhs_weap_ak74m_Base_F {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class rhs_weap_svd: rhs_weap_ak74m {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class UK3CB_SVD_OLD: rhs_weap_svd {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 81.5;
-        };
-    };
-    class rhs_weap_svdp: rhs_weap_svd {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
-    class rhs_weap_svdp_npz: rhs_weap_svdp {
-        class WeaponSlotsInfo: WeaponSlotsInfo {};
-    };
+    class rhs_weap_svdp_npz;
     class UK3CB_SVD_OLD_NPZ: rhs_weap_svdp_npz {
         displayName = "SVD (NPZ)";
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 85.5;
-        };
     };
 };
