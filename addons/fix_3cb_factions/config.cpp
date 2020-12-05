@@ -28,17 +28,18 @@ class CfgPatches {
             "uk3cb_factions_TKM",
             "uk3cb_factions_TKP",
             "uk3cb_factions_UN",
-            "uk3cb_factions_Weapons"
+            "uk3cb_factions_Weapons",
+            "tfar_backpacks"
         };
         authors[] = {
-            "ThePointForward",
-            "johnb43"
+            "johnb43",
+            "ThePointForward"
         };
     };
 };
 
 #include "CfgAcc.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

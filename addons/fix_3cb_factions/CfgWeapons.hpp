@@ -1,6 +1,7 @@
 class asdg_UnderSlot;
 class asdg_OpticRail1913;
-class rhs_russian_rifle_scopes_slot;
+class asdg_MuzzleSlot_556;
+class asdg_OpticSideRail_AKSVD;
 class rhs_western_rifle_laser_slot_top;
 
 class CfgWeapons {
@@ -30,7 +31,7 @@ class CfgWeapons {
     class uk3cb_ak47: uk3cb_ak47_base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 76.5;
-            class CowsSlot: rhs_russian_rifle_scopes_slot {};
+            class CowsSlot: asdg_OpticSideRail_AKSVD {};
         };
     };
 
@@ -67,7 +68,7 @@ class CfgWeapons {
 
     class UK3CB_G3_Base: Rifle_Base_F {
         magazines[] = {"UK3CB_G3_20rnd_762x51"};
-        magazineWell[] = {"UK3CB_G3_762x51_Magazines","CBA_762x51_G3","CBA_762x51_G3_L","CBA_762x51_G3_XL"};
+        magazineWell[] = {"CBA_762x51_G3","CBA_762x51_G3_L","CBA_762x51_G3_XL"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class PointerSlot {};
         };
@@ -99,14 +100,14 @@ class CfgWeapons {
         };
     };
     class UK3CB_G3KA4: UK3CB_G3A3 {
-        displayName = "HK G3KA4 RAS";
+        displayName = "HK G3KA4 (RAS)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 96.9;
             class PointerSlot: rhs_western_rifle_laser_slot_top {};
         };
     };
     class UK3CB_G3KA4_GL: UK3CB_G3KA4 {
-        displayName = "HK G3KA4 RAS (GL)";
+        displayName = "HK G3KA4 (RAS/GL)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 129.9;
         };
@@ -158,6 +159,7 @@ class CfgWeapons {
 
     class UK3CB_M14_base: Rifle_Base_F {
         magazines[] = {"UK3CB_M14_20rnd_762x51"};
+        magazineWell[] = {"CBA_762x51_M14","CBA_762x51_M14_L","CBA_762x51_M14_XL"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_M14: UK3CB_M14_base {
@@ -310,7 +312,7 @@ class CfgWeapons {
         displayName = "RPK-74N";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 101;
-            class CowsSlot: rhs_russian_rifle_scopes_slot {};
+            class CowsSlot: asdg_OpticSideRail_AKSVD {};
         };
     };
     class UK3CB_RPK_74_BLK: UK3CB_RPK_74 {

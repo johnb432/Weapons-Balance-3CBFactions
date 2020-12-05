@@ -1,3 +1,21 @@
+# Changelog for Weapons balance 05.12.2020
+
+- Weapon changes:
+    - UK3CB Factions:
+        - HK G3s:
+            - Removed M14 mags
+        - M14s & M21s:
+            - Removed G3 mags
+
+- Backpack changes:
+    - UK3CB Factions:
+            - Knapsacks:
+                - Increased capacity to assault pack level
+            - Radiobackpacks (3x):
+                - Increased capacity, decreased weight, increased range to 40km
+            - Shovel & Bedroll:
+                - Decreased weight
+
 # Changelog for Weapons balance 23.8.2020
 
 - Weapon changes:
