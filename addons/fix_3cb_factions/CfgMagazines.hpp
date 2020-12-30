@@ -12,58 +12,76 @@ class CfgMagazines {
     class rhsusf_100Rnd_762x51_m80a1epr;
 
     class UK3CB_AK47_30Rnd_Magazine: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Green";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_G: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Green";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_R: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Red";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_W: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_White";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_Y: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Yellow";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_GT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_Green";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_RT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_Red";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_WT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_White";
         mass = 13.5;
     };
     class UK3CB_AK47_30Rnd_Magazine_YT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_Yellow";
         mass = 13.5;
     };
 
     class UK3CB_AK47_45Rnd_Magazine: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Green";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_G: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Green";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_R: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Red";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_W: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_White";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_Y: rhs_30Rnd_762x39mm {
+        ammo = "UK3CB_762x39_Ball_Yellow";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_GT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_Green";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_RT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_Red";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_WT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_White";
         mass = 20;
     };
     class UK3CB_AK47_45Rnd_Magazine_YT: rhs_30Rnd_762x39mm_tracer {
+        ammo = "UK3CB_762x39_Ball_Tracer_Yellow";
         mass = 20;
     };
 
@@ -108,42 +126,55 @@ class CfgMagazines {
     };
 
     class UK3CB_RPK74_60rnd_545x39: rhs_30Rnd_545x39_AK {
+        ammo = "rhs_B_545x39_7N10_Ball";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_G: rhs_30Rnd_545x39_AK {
+        ammo = "WB_545x39_Ball_Green";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_R: rhs_30Rnd_545x39_AK {
+        ammo = "WB_545x39_Ball_Red";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_W: rhs_30Rnd_545x39_AK {
+        ammo = "WB_545x39_Ball_White";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_Y: rhs_30Rnd_545x39_AK {
+        ammo = "WB_545x39_Ball_Yellow";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_GM: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_Green";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_RM: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_Red";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_WM: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_White";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_YM: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_Yellow";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_GT: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_Green";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_RT: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_Red";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_WT: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_White";
         mass = 18;
     };
     class UK3CB_RPK74_60rnd_545x39_YT: rhs_30Rnd_545x39_AK_green {
+        ammo = "WB_545x39_Ball_Tracer_Yellow";
         mass = 18;
     };
 
@@ -423,31 +454,61 @@ class CfgMagazines {
         mass = 25.41;
     };
 
+    class UK3CB_Bren_30Rnd_762x51_Magazine: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_G: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_GT: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_R: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_RT: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_W: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_WT: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_Y: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+    class UK3CB_Bren_30Rnd_762x51_Magazine_YT: 20Rnd_762x51_Mag {
+        mass = 22.2;
+    };
+
     class UK3CB_Enfield_10rnd_Mag: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_G: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_R: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_W: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        ammo = "UK3CB_303_Ball_W";
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_Y: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_GT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_RT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_WT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        ammo = "UK3CB_303_Ball_W";
+        mass = 5.6;
     };
     class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 4.4;
+        mass = 5.6;
     };
 };

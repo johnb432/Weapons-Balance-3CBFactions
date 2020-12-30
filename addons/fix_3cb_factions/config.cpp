@@ -1,5 +1,5 @@
 class CfgPatches {
-    class WB_fix3cbfactions {
+    class WB_fix_3cbfactions {
         name = "Weapons balance - Fix 3CB Factions";
         units[] = {};
         weapons[] = {};
@@ -38,6 +38,7 @@ class CfgPatches {
     };
 };
 
+#include "CfgAmmo.hpp"
 #include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"

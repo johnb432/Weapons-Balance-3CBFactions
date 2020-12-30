@@ -1,6 +1,5 @@
 class asdg_UnderSlot;
 class asdg_OpticRail1913;
-class asdg_MuzzleSlot_556;
 class asdg_OpticSideRail_AKSVD;
 class rhs_western_rifle_laser_slot_top;
 
@@ -29,6 +28,13 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class uk3cb_ak47: uk3cb_ak47_base {
+        rhs_1p29_type = "rhs_acc_1p29";
+        rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+        rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+        rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+        rhs_pkas_type = "rhs_acc_pkas";
+        rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
+        rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 76.5;
             class CowsSlot: asdg_OpticSideRail_AKSVD {};
@@ -36,7 +42,8 @@ class CfgWeapons {
     };
 
     class UK3CB_Bren: LMG_Zafir_F {
-        magazineWell[] = {"CBA_303B_BREN"};
+        displayName = "Bren L4A2";
+        magazineWell[] = {"CBA_762x51_FAL", "CBA_762x51_FAL_L"};
         class WeaponSlotsInfo {
             mass = 191.5;
         };
@@ -145,12 +152,14 @@ class CfgWeapons {
     };
 
     class UK3CB_Enfield: rhs_weap_XM2010_Base_F {
+        displayName = "Lee-Enfield No.1 Mk.III*";
         magazineWell[] = {"CBA_303B_LeeEn"};
         class WeaponSlotsInfo {
             mass = 87;
         };
     };
     class UK3CB_Enfield_Rail: UK3CB_Enfield {
+        displayName = "Lee-Enfield No.1 Mk.III* (Rail)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 90;
             class GripodSlot: asdg_UnderSlot {};
@@ -199,12 +208,12 @@ class CfgWeapons {
 
     class UK3CB_M16A1: UK3CB_M16A1_Base {
         class WeaponSlotsInfo {
-            mass = 65;
+            mass = 68.5;
         };
     };
     class UK3CB_M16A1_LSW: UK3CB_M16A1_Base {
         class WeaponSlotsInfo {
-            mass = 71.5;
+            mass = 74.5;
         };
     };
 
@@ -310,6 +319,13 @@ class CfgWeapons {
     };
     class UK3CB_RPK_74: UK3CB_RPK {
         displayName = "RPK-74N";
+        rhs_1p29_type = "rhs_acc_1p29";
+        rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+        rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+        rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+        rhs_pkas_type = "rhs_acc_pkas";
+        rhs_pso1m2_type = "rhs_acc_pso1m2";
+        rhs_pso1m21_type = "rhs_acc_pso1m21_svd";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 101;
             class CowsSlot: asdg_OpticSideRail_AKSVD {};
@@ -320,6 +336,7 @@ class CfgWeapons {
     };
 
     class UK3CB_Sten: SMG_02_F {
+        displayName = "Sterling L2A3 (Mk.4)";
         magazineWell[] += {"CBA_9x19_STEN"};
         class WeaponSlotsInfo {
             mass = 60;

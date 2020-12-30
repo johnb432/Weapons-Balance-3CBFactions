@@ -1,3 +1,38 @@
+# Changelog for Weapons balance 24.12.2020
+
+- Fixed UK3CB Factions 5.45x39 & 7.62x39 mags to use correct type of ammo
+- Fixed .303 Lee-Enfield clips with white tracers to actually use white tracers
+- Changed RHS AK scopes configs on weapons to better fit the individual weapons
+
+- Weapon changes:
+    - UK3CB Factions:
+        - Bren Light Machine Gun:
+            - Removed CBA magwell for .303 Bren mags
+            - Added CBA magwell for 7.62x51 FAL mags
+            - Changed name to "Bren L4A2"
+        - Lee Enfield Mk III:
+            - Changed name to "Lee-Enfield No.1 Mk.III*"
+        - Lee Enfield Mk III (Rail):
+            - Changed name to "Lee-Enfield No.1 Mk.III* (Rail)"
+        - M16A1:
+            - Changed weight from 2.95kg to 3.11kg
+        - M16A1 LSW:
+            - Changed weight from 3.24kg to 3.38kg
+        - Sterling SMG:
+            - Changed name to "Sterling L2A3 (Mk.4)"
+
+- MagazineWells:
+    - CBA:
+         - .303 Bren:
+             - Removed 9x UK3CB 30Rnd mags (They were added wrongfully)
+         - 7.62x51 FAL L:
+             - Added 9x UK3CB 30Rnd mags
+
+- Weight balancing:
+    - UK3CB Factions:
+        - All (9x) 30Rnd 7.62x51mm Bren mags from 0.54kg to 0.89kg
+        - All (9x) 10Rnd .303/7.7mm Lee Enfield from 0.20kg to 0.26kg
+
 # Changelog for Weapons balance 05.12.2020
 
 - Weapon changes:
@@ -5,7 +40,7 @@
         - HK G3s:
             - Removed M14 mags
         - M14s & M21s:
-            - Removed G3 mags
+            - Removed G3 mags      
 
 - Backpack changes:
     - UK3CB Factions:
@@ -46,7 +81,7 @@
                 - Changed name to "G3AKA4 RAS"
                 - Changed weight from 4.63kg to 4.40kg
             - G3KA4 (RIS/GL):
-                - Changed name to "G3KA4 RAS (GL)""
+                - Changed name to "G3KA4 RAS (GL)"
                 - Changed weight from 5.44kg to 5.89kg
             - PSG1A1:
                 - Changed weight from 7.17kg to 6.40kg
