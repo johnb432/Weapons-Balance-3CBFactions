@@ -32,6 +32,7 @@
     - UK3CB Factions:
         - All (9x) 30Rnd 7.62x51mm Bren mags from 0.54kg to 0.89kg
         - All (9x) 10Rnd .303/7.7mm Lee Enfield from 0.20kg to 0.26kg
+        - All (9x) 30Rnd 9x19mm Sterling mags from 0.45kg to 0.52kg
 
 # Changelog for Weapons balance 05.12.2020
 

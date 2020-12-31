@@ -2,6 +2,7 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class 20Rnd_762x51_Mag;
     class 30Rnd_9x21_Mag;
+    class 30Rnd_9x21_Mag_SMG_02;
     class rhsusf_5Rnd_300winmag_xm2010;
     class rhs_mag_30Rnd_556x45_Mk318_Stanag;
     class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red;
@@ -510,5 +511,35 @@ class CfgMagazines {
     };
     class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
         mass = 5.6;
+    };
+
+    class UK3CB_Sten_34Rnd_Magazine: 30Rnd_9x21_Mag_SMG_02 {
+        displayName = "34Rnd 9x19mm Sterling Mag (No Tracer)";
+        mass = 11.5;
+    };
+    class UK3CB_Sten_34Rnd_Magazine_R: 30Rnd_9x21_Mag_SMG_02 {
+        displayName = "34Rnd 9x19mm Sterling Mag (2 x Red Tracer)";
+        mass = 11.5;
+    };
+    class UK3CB_Sten_34Rnd_Magazine_G: UK3CB_Sten_34Rnd_Magazine_R {
+        displayName = "34Rnd 9x19mm Sterling Mag (2 x Green Tracer)";
+    };
+    class UK3CB_Sten_34Rnd_Magazine_W: UK3CB_Sten_34Rnd_Magazine_R {
+        displayName = "34Rnd 9x19mm Sterling Mag (2 x White Tracer)";
+    };
+    class UK3CB_Sten_34Rnd_Magazine_Y: UK3CB_Sten_34Rnd_Magazine_R {
+        displayName = "34Rnd 9x19mm Sterling Mag (2 x Yellow Tracer)";
+    };
+    class UK3CB_Sten_34Rnd_Magazine_GT: UK3CB_Sten_34Rnd_Magazine_G {
+        displayName = "34Rnd 9x19mm Sterling Mag (Green Tracer)";
+    };
+    class UK3CB_Sten_34Rnd_Magazine_RT: UK3CB_Sten_34Rnd_Magazine_R {
+        displayName = "34Rnd 9x19mm Sterling Mag (Red Tracer)";
+    };
+    class UK3CB_Sten_34Rnd_Magazine_WT: UK3CB_Sten_34Rnd_Magazine_W {
+        displayName = "34Rnd 9x19mm Sterling Mag (White Tracer)";
+    };
+    class UK3CB_Sten_34Rnd_Magazine_YT: UK3CB_Sten_34Rnd_Magazine_Y {
+        displayName = "34Rnd 9x19mm Sterling Mag (Yellow Tracer)";
     };
 };
