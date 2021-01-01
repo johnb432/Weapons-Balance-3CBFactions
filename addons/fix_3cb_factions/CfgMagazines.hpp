@@ -484,33 +484,33 @@ class CfgMagazines {
     };
 
     class UK3CB_Enfield_10rnd_Mag: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_G: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_R: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_W: rhsusf_5Rnd_300winmag_xm2010 {
         ammo = "UK3CB_303_Ball_W";
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_Y: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_GT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_RT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_WT: rhsusf_5Rnd_300winmag_xm2010 {
         ammo = "UK3CB_303_Ball_W";
-        mass = 5.6;
+        mass = 5.65;
     };
     class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
-        mass = 5.6;
+        mass = 5.65;
     };
 
     class UK3CB_Sten_34Rnd_Magazine: 30Rnd_9x21_Mag_SMG_02 {
