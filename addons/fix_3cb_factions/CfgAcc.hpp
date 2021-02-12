@@ -39,12 +39,12 @@ class rhs_western_rifle_muzzle_slot: asdg_MuzzleSlot_556 {
     };
 };
 
-class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
     class compatibleItems {
         uk3cb_muzzle_snds_m14 = 1;
     };
 };
-class asdg_MuzzleSlot_762_3CB_M14: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
     class compatibleItems {
         uk3cb_muzzle_snds_g3 = 1;
     };

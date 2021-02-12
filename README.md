@@ -1,3 +1,28 @@
+# Changelog for Weapons balance 03.02.2021
+
+- UK3CB Factions:
+        - AK-47:
+            - Reverted previous scope addition
+            - Changed name to weight from 3.47kg to 3.42kg
+        - AK-47N:
+            - Changed name to weight from 3.13kg to 3.47kg
+        - RPK-74s:
+            - Reverted previous name change and scope addition
+            - Changed weight from 4.58kg to 4.54kg
+        - RPK-74Ns
+            - Changed weight from 3.90kg to 4.58kg
+
+- MagazineWells:
+    - CBA:
+        - 5.56 HK33:
+            - Removed 9x UK3CB Factions 30Rnd mags (because they clip with NIArms HK33s)
+        - Various:
+            - Removed a whole bunch of now redundant ones, as UK3CB Factions added further native compatibility
+
+    - UK3CB:    
+        - 5.56 HK33:
+            - Added 9x UK3CB Factions 30Rnd mags
+
 # Changelog for Weapons balance 24.12.2020
 
 - Fixed UK3CB Factions 5.45x39 & 7.62x39 mags to use correct type of ammo

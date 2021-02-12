@@ -6,17 +6,9 @@ class rhs_western_rifle_laser_slot_top;
 class CfgWeapons {
     class LMG_RCWS;
     class SMG_02_F;
-    class rhs_weap_m16a4_carryhandle;
     class rhs_weap_m16a4_carryhandle_M203;
     class rhs_weap_XM2010_Base_F;
     class UK3CB_M16A1_Base;
-    class rhs_6b27m_ml_ess;
-    class rhs_6b27m_green;
-    class rhs_6b27m_green_ess;
-    class rhs_6b27m_green_bala;
-    class rhs_6b27m_green_ess_bala;
-    class rhs_6b27m;
-    class rhs_6b27m_ess;
     class Rifle;
     class Rifle_Base_F: Rifle {
         class WeaponSlotsInfo {};
@@ -28,6 +20,12 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class uk3cb_ak47: uk3cb_ak47_base {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 75.5;
+        };
+    };
+
+    class uk3cb_ak47n: uk3cb_ak47 {
         rhs_1p29_type = "rhs_acc_1p29";
         rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
         rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
@@ -37,7 +35,6 @@ class CfgWeapons {
         rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 76.5;
-            class CowsSlot: asdg_OpticSideRail_AKSVD {};
         };
     };
 
@@ -74,20 +71,22 @@ class CfgWeapons {
     };
 
     class UK3CB_G3_Base: Rifle_Base_F {
-        magazines[] = {"UK3CB_G3_20rnd_762x51"};
-        magazineWell[] = {"CBA_762x51_G3","CBA_762x51_G3_L","CBA_762x51_G3_XL"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
+            class CowsSlot: UK3CB_OpticRail1913_G3 {};
             class PointerSlot {};
         };
     };
     class UK3CB_G3SG1: UK3CB_G3_Base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 113;
+            class PointerSlot {};
         };
     };
     class UK3CB_G3SG1_RIS: UK3CB_G3SG1 {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 115;
+            class CowsSlot {};
+            class PointerSlot {};
         };
     };
     class UK3CB_G3A3: UK3CB_G3SG1 {
@@ -96,6 +95,8 @@ class CfgWeapons {
     class UK3CB_G3A3_RIS: UK3CB_G3A3 {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 98.9;
+            class CowsSlot {};
+            class PointerSlot {};
         };
     };
     class UK3CB_G3A3V: UK3CB_G3A3 {
@@ -104,13 +105,15 @@ class CfgWeapons {
     class UK3CB_G3A3V_RIS: UK3CB_G3A3 {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 98.9;
+            class CowsSlot {};
+            class PointerSlot {};
         };
     };
     class UK3CB_G3KA4: UK3CB_G3A3 {
         displayName = "HK G3KA4 (RAS)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 96.9;
-            class PointerSlot: rhs_western_rifle_laser_slot_top {};
+            class CowsSlot {};
         };
     };
     class UK3CB_G3KA4_GL: UK3CB_G3KA4 {
@@ -128,10 +131,12 @@ class CfgWeapons {
     class UK3CB_PSG1A1_RIS: UK3CB_PSG1A1 {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 143;
+            class CowsSlot: asdg_OpticRail1913 {};
         };
     };
 
     class UK3CB_HK33KA2: UK3CB_G3_Base {
+        magazineWell[] = {"UK3CB_556x45_HK33"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_HK33KA3: UK3CB_HK33KA2 {
@@ -142,7 +147,7 @@ class CfgWeapons {
     class UK3CB_HK33KA2_RIS: UK3CB_HK33KA2 {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 85.5;
-            class PointerSlot: rhs_western_rifle_laser_slot_top {};
+            class CowsSlot {};
         };
     };
     class UK3CB_HK33KA2_RIS_GL: UK3CB_HK33KA2_RIS {
@@ -168,7 +173,6 @@ class CfgWeapons {
 
     class UK3CB_M14_base: Rifle_Base_F {
         magazines[] = {"UK3CB_M14_20rnd_762x51"};
-        magazineWell[] = {"CBA_762x51_M14","CBA_762x51_M14_L","CBA_762x51_M14_XL"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_M14: UK3CB_M14_base {
@@ -282,10 +286,10 @@ class CfgWeapons {
     };
 
     class UK3CB_MG42_base: Rifle_Base_F {
-        magazineWell[] += {"CBA_762x51_LINKS","CBA_762x51_MG3"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class UK3CB_MG3: UK3CB_MG42_base {
+        magazineWell[] += {"CBA_762x51_LINKS","CBA_762x51_MG3"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 253.5;
         };
@@ -318,7 +322,11 @@ class CfgWeapons {
         };
     };
     class UK3CB_RPK_74: UK3CB_RPK {
-        displayName = "RPK-74N";
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 100;
+        };
+    };
+    class UK3CB_RPK_74N: UK3CB_RPK_74 {
         rhs_1p29_type = "rhs_acc_1p29";
         rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
         rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
@@ -328,11 +336,7 @@ class CfgWeapons {
         rhs_pso1m21_type = "rhs_acc_pso1m21_svd";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 101;
-            class CowsSlot: asdg_OpticSideRail_AKSVD {};
         };
-    };
-    class UK3CB_RPK_74_BLK: UK3CB_RPK_74 {
-        displayName = "RPK-74N (Black)";
     };
 
     class UK3CB_Sten: SMG_02_F {

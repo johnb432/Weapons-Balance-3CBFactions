@@ -224,15 +224,20 @@ class CfgMagazines {
     };
     class UK3CB_HK33_30rnd_556x45_GT: UK3CB_HK33_30rnd_556x45_G {
         mass = 9.35;
+        tracersevery = 1;
     };
     class UK3CB_HK33_30rnd_556x45_RT: UK3CB_HK33_30rnd_556x45_R {
         mass = 9.35;
+        tracersevery = 1;
     };
     class UK3CB_HK33_30rnd_556x45_WT: UK3CB_HK33_30rnd_556x45_W {
         mass = 9.35;
+        tracersevery = 1;
     };
     class UK3CB_HK33_30rnd_556x45_YT: UK3CB_HK33_30rnd_556x45_Y {
+        displayname = "30rnd HK33 M856 Tracer (Yellow)";
         mass = 9.35;
+        tracersevery = 1;
     };
 
     class UK3CB_FNFAL_20rnd_762x51: 30Rnd_556x45_Stanag {
@@ -418,6 +423,12 @@ class CfgMagazines {
     class UK3CB_MG3_100rnd_762x51_Y: rhsusf_100Rnd_762x51_m80a1epr {
         mass = 32.34;
     };
+    class UK3CB_MG3_100rnd_762x51_GT: UK3CB_MG3_100rnd_762x51_G {
+        displayName = "100rnd MG3 M62 Tracer Belt (Green)";
+    };
+    class UK3CB_MG3_100rnd_762x51_WT: UK3CB_MG3_100rnd_762x51_W {
+        displayName = "100rnd MG3 M62 Tracer Belt (White)";
+    };
 
     class UK3CB_MG3_250rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
         mass = 72;
@@ -454,32 +465,44 @@ class CfgMagazines {
         displayname = "50rnd MG3 M80/M62 Mixed Belt (Red)";
         mass = 25.41;
     };
+    class UK3CB_MG3_50rnd_762x51_RT: UK3CB_MG3_50rnd_762x51_R {
+        displayName = "50rnd MG3 M62 Tracer Belt (Red)";
+    };
 
     class UK3CB_Bren_30Rnd_762x51_Magazine: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_G: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_GT: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_R: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_RT: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_W: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_WT: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_Y: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
     class UK3CB_Bren_30Rnd_762x51_Magazine_YT: 20Rnd_762x51_Mag {
+        modelSpecial = "rhsgref\addons\rhsgref_weapons3\mag_proxies\rhs_mag_762x51_fnfal_20rnd";
         mass = 22.2;
     };
 
