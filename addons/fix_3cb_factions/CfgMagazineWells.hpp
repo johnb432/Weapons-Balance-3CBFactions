@@ -231,7 +231,7 @@ class CfgMagazineWells {
     };
 
     class UK3CB_556x45_HK33 {
-        FK_Magazines[] = {
+        WB_Magazines[] += {
             "UK3CB_30rnd_556x45_B_HK33",
             "UK3CB_30rnd_556x45_T_HK33",
             "UK3CB_HK33_30rnd_556x45",

@@ -1,6 +1,6 @@
 class asdg_UnderSlot;
 class asdg_OpticRail1913;
-class asdg_OpticSideRail_AKSVD;
+class UK3CB_OpticRail1913_G3;
 class rhs_western_rifle_laser_slot_top;
 
 class CfgWeapons {

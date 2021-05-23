@@ -1,3 +1,7 @@
+# Changelog for Weapons balance 23.05.2021
+
+- Fixed startup errors
+
 # Changelog for Weapons balance 03.02.2021
 
 - UK3CB Factions:
