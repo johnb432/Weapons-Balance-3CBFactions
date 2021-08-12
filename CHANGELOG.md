@@ -1,10 +1,71 @@
-# Changelog for Weapons balance 23.05.2021
+# Changelog for Weapons balance 9.8.2021
+
+1.1.0.0
+- Added hemtt support
+- Added BettIR compatibility
+- Added weapon attachments compatibility
+- Added magazine compatibility to pistols
+- Balanced backpacks
+- Removed ability to drag and carry 3CB Factions MG nests
+
+- Weapon changes:
+    - UK3CB Factions:
+        - FAMASs:
+            - Added CBA magwell for 5.56x45 FAMAS mags
+            - Changed weight from 3.78kg to 3.70kg
+        - FAMAS F1 M203:
+            - Changed name to "FAMAS F1 (Rail/GL)"
+            - Changed weight from 3.78kg to 5.20kg
+        - M16A2 M203:
+            - Changed name to "M16A2 (GL)"
+        - MP5s:
+            - Added 9mm SMG muzzle devices
+        - MP5/10:
+            - Changed name to "HK MP5/10A4"
+            - Changed weight from 2.59kg to 2.92kg
+        - MP5A2:
+            - Changed weight from 2.27kg to 2.89kg
+        - MP5A3:
+            - Changed weight from 2.81kg to 3.10kg
+        - MP5A4:
+            - Changed weight from 2.63kg to 2.94kg
+        - MP5K:
+            - Changed weight from 1.81kg to 2.00kg
+        - MP5K-PDW:
+            - Changed weight from 2.27kg to 2.54kg
+        - MP5N:
+            - Changed weight from 2.63kg to 3.14kg
+        - MP5N UGL:
+            - Changed name to "HK MP5N (GL)"
+            - Changed weight from 3.86kg to 4.50kg
+        - MP5SD5:
+            - Changed weight from 2.81kg to 3.20kg
+        - MP5SD6:
+            - Changed weight from 3.08kg to 3.40kg
+        - RPK-74s:
+            - Added 5.45mm muzzle devices
+
+- MagazineWells:
+    - CBA:
+        - 5.56 FAMAS:
+            - Added 9x UK3CB Factions 25Rnd mags
+        - 9x19 MP5:
+            - Added 9x UK3CB Factions 30Rnd mags
+        - 10x25 MP5:
+            - Added 9x UK3CB Factions 30Rnd mags
+
+- Weight balancing:
+    - UK3CB Factions:
+        - All (9x) 25Rnd 5.56x45 FAMAS mags from 0.57kg to 0.36kg
+
+# Changelog for Weapons balance 23.5.2021
 
 - Fixed startup errors
 
-# Changelog for Weapons balance 03.02.2021
+# Changelog for Weapons balance 3.2.2021
 
-- UK3CB Factions:
+- Weapon changes:
+    - UK3CB Factions:
         - AK-47:
             - Reverted previous scope addition
             - Changed name to weight from 3.47kg to 3.42kg
@@ -63,7 +124,7 @@
         - All (9x) 10Rnd .303/7.7mm Lee Enfield from 0.20kg to 0.26kg
         - All (9x) 30Rnd 9x19mm Sterling mags from 0.45kg to 0.52kg
 
-# Changelog for Weapons balance 05.12.2020
+# Changelog for Weapons balance 5.12.2020
 
 - Weapon changes:
     - UK3CB Factions:
@@ -166,7 +227,7 @@
             - Changed weight from 2.81kg to 3.40kg
         - RPK:
             - Changed weight from 4.35kg to 4.81kg
-            - Fixed wrong inheritance that was introduced in the first version of FK balance (can't take picatinny accessories anymore)
+            - Fixed wrong inheritance that was introduced in the first version of WB balance (can't take picatinny accessories anymore)
         - RPK-74:
             - Changed names to "RPK-74N"
             - Changed weight from 4.26kg to 4.58kg
@@ -181,39 +242,39 @@
 - MagazineWells:
     - CBA:
          - .303 Bren:
-             - Added 9x UK3CB 30Rnd mags
+             - Added 9x UK3CB Factions 30Rnd mags
          - .303 Lee Enfield:
-             - Added 9x UK3CB 10Rnd clips
+             - Added 9x UK3CB Factions 10Rnd clips
          - 5.45x39 RPK:
-             - Added 13x UK3CB 60Rnd mags
+             - Added 13x UK3CB Factions 60Rnd mags
          - 5.56x45 STANAG:
-             - Added 9x UK3CB 20Rnd mags
-             - Added 9x UK3CB 30Rnd mags
+             - Added 9x UK3CB Factions 20Rnd mags
+             - Added 9x UK3CB Factions 30Rnd mags
          - 7.62x39 AK:
-             - Added 9x UK3CB 30Rnd mags
+             - Added 9x UK3CB Factions 30Rnd mags
          - 7.62x39 RPK:
-             - Added 9x UK3CB 45Rnd mags
-             - Added 13x UK3CB 75Rnd drum mags
+             - Added 9x UK3CB Factions 45Rnd mags
+             - Added 13x UK3CB Factions 75Rnd drum mags
          - 7.62x51 FAL:
-             - Added 9x UK3CB 20Rnd mags
+             - Added 9x UK3CB Factions 20Rnd mags
          - 7.62x51 G3:
-             - Added 9x UK3CB 20Rnd mags
+             - Added 9x UK3CB Factions 20Rnd mags
          - 7.62x51 G3 L:
-             - Added 13x UK3CB 50Rnd mags
+             - Added 13x UK3CB Factions 50Rnd mags
          - 7.62x51 Links:
-             - Added 13x UK3CB 100Rnd belts
+             - Added 13x UK3CB Factions 100Rnd belts
          - 7.62x51 M14:
-             - Added 9x UK3CB 20Rnd mags
+             - Added 9x UK3CB Factions 20Rnd mags
          - 7.62x51 MG3:
-             - Added 13x UK3CB 50Rnd Belts
-             - Added 13x UK3CB 100Rnd Belts
-             - Added 13x UK3CB 250Rnd Belts
+             - Added 13x UK3CB Factions 50Rnd Belts
+             - Added 13x UK3CB Factions 100Rnd Belts
+             - Added 13x UK3CB Factions 250Rnd Belts
          - 7.62x54R SVD:
-             - Added 9x UK3CB 10Rnd mags
+             - Added 9x UK3CB Factions 10Rnd mags
          - 9x19 MP5:
-             - Added 9x UK3CB 30Rnd mags
+             - Added 9x UK3CB Factions 30Rnd mags
          - 9x19 Sten:
-             - Added 9x UK3CB 34Rnd mags
+             - Added 9x UK3CB Factions 34Rnd mags
 
 - Weight balancing:
     - UK3CB Factions:

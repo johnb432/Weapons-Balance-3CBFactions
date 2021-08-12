@@ -67,6 +67,20 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_556x45_FAMAS {
+        WB_Magazines[] += {
+            "UK3CB_FAMAS_25rnd_556x45_G",
+            "UK3CB_FAMAS_25rnd_556x45_R",
+            "UK3CB_FAMAS_25rnd_556x45_W",
+            "UK3CB_FAMAS_25rnd_556x45_Y",
+            "UK3CB_FAMAS_25rnd_556x45",
+            "UK3CB_FAMAS_25rnd_556x45_YT",
+            "UK3CB_FAMAS_25rnd_556x45_GT",
+            "UK3CB_FAMAS_25rnd_556x45_RT",
+            "UK3CB_FAMAS_25rnd_556x45_WT"
+        };
+    };
+
     class CBA_556x45_HK33 {
         delete UK3CB_mags;
     };
@@ -161,17 +175,29 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x19_CZ75_Full {
+        WB_Magazines[] += {
+            "UK3CB_CZ75_9_20Rnd"
+        };
+    };
+
+    class CBA_9x19_HiPower {
+        WB_Magazines[] += {
+            "UK3CB_BHP_9_13Rnd"
+        };
+    };
+
     class CBA_9x19_MP5 {
         WB_Magazines[] += {
-            "UK3CB_MP5_30Rnd_Magazine_G",
-            "UK3CB_MP5_30Rnd_Magazine_R",
-            "UK3CB_MP5_30Rnd_Magazine_W",
-            "UK3CB_MP5_30Rnd_Magazine_Y",
-            "UK3CB_MP5_30Rnd_Magazine",
-            "UK3CB_MP5_30Rnd_Magazine_GT",
-            "UK3CB_MP5_30Rnd_Magazine_RT",
-            "UK3CB_MP5_30Rnd_Magazine_WT",
-            "UK3CB_MP5_30Rnd_Magazine_YT"
+            "UK3CB_MP5_30Rnd_9x19_Magazine_G",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_R",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_W",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_Y",
+            "UK3CB_MP5_30Rnd_9x19_Magazine",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_GT",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_RT",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_WT",
+            "UK3CB_MP5_30Rnd_9x19_Magazine_YT"
         };
     };
 
@@ -186,6 +212,34 @@ class CfgMagazineWells {
             "UK3CB_Sten_34Rnd_Magazine_RT",
             "UK3CB_Sten_34Rnd_Magazine_WT",
             "UK3CB_Sten_34Rnd_Magazine_YT"
+        };
+    };
+
+    class CBA_10mmAuto_MP5 {
+        WB_Magazines[] += {
+            "UK3CB_MP5_30Rnd_10_Magazine_G",
+            "UK3CB_MP5_30Rnd_10_Magazine_R",
+            "UK3CB_MP5_30Rnd_10_Magazine_W",
+            "UK3CB_MP5_30Rnd_10_Magazine_Y",
+            "UK3CB_MP5_30Rnd_10_Magazine",
+            "UK3CB_MP5_30Rnd_10_Magazine_GT",
+            "UK3CB_MP5_30Rnd_10_Magazine_RT",
+            "UK3CB_MP5_30Rnd_10_Magazine_WT",
+            "UK3CB_MP5_30Rnd_10_Magazine_YT"
+        };
+    };
+
+    class CBA_10x25_MP5 {
+        WB_Magazines[] += {
+            "UK3CB_MP5_30Rnd_10_Magazine_G",
+            "UK3CB_MP5_30Rnd_10_Magazine_R",
+            "UK3CB_MP5_30Rnd_10_Magazine_W",
+            "UK3CB_MP5_30Rnd_10_Magazine_Y",
+            "UK3CB_MP5_30Rnd_10_Magazine",
+            "UK3CB_MP5_30Rnd_10_Magazine_GT",
+            "UK3CB_MP5_30Rnd_10_Magazine_RT",
+            "UK3CB_MP5_30Rnd_10_Magazine_WT",
+            "UK3CB_MP5_30Rnd_10_Magazine_YT"
         };
     };
 
