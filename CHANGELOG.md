@@ -1,3 +1,13 @@
+# Changelog for Weapons balance 26.9.2021
+
+1.1.0.1
+- Weapon changes:
+    - UK3CB Factions:
+        - FAMASs:
+            - Added ACE barrel stats
+        - PSG1A1
+            - Fixed picatinny rail by removing all G3 scopes
+
 # Changelog for Weapons balance 9.8.2021
 
 1.1.0.0

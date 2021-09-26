@@ -47,6 +47,8 @@ class UK3CB_FNFAL_FULL: UK3CB_FNFAL_PARA {
 };
 
 class UK3CB_FAMAS_F1_base: Rifle_Base_F {
+    ACE_barrelLength = 488;
+    ACE_barrelTwist = 304.8;
     magazineWell[] += {"CBA_556x45_FAMAS"};
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
