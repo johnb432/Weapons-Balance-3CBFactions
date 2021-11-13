@@ -1,6 +1,6 @@
 class UK3CB_MP5_Base: SMG_02_F {
     magazineWell[] = {"CBA_9x19_MP5"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo {};
 };
 class UK3CB_MP5A2: UK3CB_MP5_Base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

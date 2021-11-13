@@ -54,12 +54,12 @@ class UK3CB_G3KA4_GL: UK3CB_G3KA4 {
 class UK3CB_PSG1A1: UK3CB_G3_Base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 141;
+        delete Cowslot;
     };
 };
 class UK3CB_PSG1A1_RIS: UK3CB_PSG1A1 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 143;
-        delete Cowslot;
         class CowsSlot: asdg_OpticRail1913 {};
     };
 };

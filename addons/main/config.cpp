@@ -34,10 +34,26 @@ class CfgPatches {
             "UK3CB_Factions_Weapons_MP5",
             "tfar_backpacks"
         };
-        authors[] = {
-            "johnb43",
-            "ThePointForward"
-        };
+        author = "johnb43";
+        url = "https://github.com/johnb432/Weapons-Balance-3CBFactions";
+        VERSION_CONFIG;
+    };
+};
+
+class CfgMods {
+    class PREFIX {
+        name = "Weapons Balance - 3CB Factions";
+        author = "johnb43";
+        tooltipOwned = "Weapons Balance - 3CB Factions";
+        hideName = 0;
+        hidePicture = 0;
+        actionName = "Github";
+        action = "https://github.com/johnb432/Weapons-Balance-3CBFactions";
+        description = "A collection of balancing mods made by johnb43.";
+        overview = "A collection of balancing mods made by johnb43.";
+        picture = "\z\wb_3cbfactions\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
+        logo = "\z\wb_3cbfactions\addons\main\ui\logo_weapons_balance.paa";
+        overviewPicture = "\z\wb_3cbfactions\addons\main\ui\logo_weapons_balance.paa";
     };
 };
 
