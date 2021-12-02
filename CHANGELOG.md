@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 2.12.2021
+
+1.1.0.3
+- Removed TFAR dependency.
+
 # Changelog for Weapons balance 13.11.2021
 
 1.1.0.2

@@ -31,8 +31,7 @@ class CfgPatches {
             "uk3cb_factions_TKP",
             "uk3cb_factions_UN",
             "uk3cb_factions_Weapons",
-            "UK3CB_Factions_Weapons_MP5",
-            "tfar_backpacks"
+            "UK3CB_Factions_Weapons_MP5"
         };
         author = "johnb43";
         url = "https://github.com/johnb432/Weapons-Balance-3CBFactions";
