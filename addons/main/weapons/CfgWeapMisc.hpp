@@ -62,7 +62,7 @@ class UK3CB_FAMAS_F1_GLM203_base: UK3CB_FAMAS_F1_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class UK3CB_FAMAS_F1_GLM203: UK3CB_FAMAS_F1_GLM203_base {
-    displayName = "FAMAS F1 (Rail/GL)";
+    displayName = "FAMAS F1 (Rail/M203)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 114.6;
     };
@@ -108,7 +108,7 @@ class UK3CB_M16A2: UK3CB_M16a2_Base {
 };
 
 class UK3CB_M16A2_UGL: rhs_weap_m16a4_carryhandle_M203 {
-    displayName = "M16A2 (GL)";
+    displayName = "M16A2 (M203)";
     class WeaponSlotsInfo {
         mass = 110;
     };

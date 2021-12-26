@@ -40,7 +40,7 @@ class UK3CB_MP5N: UK3CB_MP5_Base {
     };
 };
 class UK3CB_MP5N_UGL: UK3CB_MP5N {
-    displayName = "HK MP5N (GL)";
+    displayName = "HK MP5N (M203)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 99.3;
     };

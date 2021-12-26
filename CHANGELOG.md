@@ -1,3 +1,9 @@
+# Changelog for Weapons balance 25.12.2021
+
+1.1.0.4
+- Fixed muzzle slot compatibility.
+- Renamed "GL" to "M203".
+
 # Changelog for Weapons balance 2.12.2021
 
 1.1.0.3

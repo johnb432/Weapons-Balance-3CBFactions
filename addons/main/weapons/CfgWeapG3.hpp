@@ -45,7 +45,7 @@ class UK3CB_G3KA4: UK3CB_G3A3 {
     };
 };
 class UK3CB_G3KA4_GL: UK3CB_G3KA4 {
-    displayName = "HK G3KA4 (RAS/GL)";
+    displayName = "HK G3KA4 (RAS/M203)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 129.9;
     };
@@ -80,6 +80,7 @@ class UK3CB_HK33KA2_RIS: UK3CB_HK33KA2 {
     };
 };
 class UK3CB_HK33KA2_RIS_GL: UK3CB_HK33KA2_RIS {
+    displayName = "HK33A2 (RIS/M203)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 118.5;
     };
