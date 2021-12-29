@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 29.12.2021
+
+1.1.0.5
+- Added intercom channels to RHIB boats.
+
 # Changelog for Weapons balance 25.12.2021
 
 1.1.0.4
