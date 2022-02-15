@@ -18,7 +18,7 @@ class UK3CB_G3SG1_RIS: UK3CB_G3SG1 {
     };
 };
 class UK3CB_G3A3: UK3CB_G3SG1 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class UK3CB_G3A3_RIS: UK3CB_G3A3 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -28,7 +28,7 @@ class UK3CB_G3A3_RIS: UK3CB_G3A3 {
     };
 };
 class UK3CB_G3A3V: UK3CB_G3A3 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class UK3CB_G3A3V_RIS: UK3CB_G3A3 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -66,11 +66,14 @@ class UK3CB_PSG1A1_RIS: UK3CB_PSG1A1 {
 
 class UK3CB_HK33KA2: UK3CB_G3_Base {
     magazineWell[] = {"UK3CB_556x45_HK33"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo {
+        delete Cowslot;
+    };
 };
 class UK3CB_HK33KA3: UK3CB_HK33KA2 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 86;
+        class CowsSlot: UK3CB_OpticRail1913_G3 {};
     };
 };
 class UK3CB_HK33KA2_RIS: UK3CB_HK33KA2 {

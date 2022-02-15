@@ -1,25 +1,34 @@
-# Changelog for Weapons balance 29.12.2021
+# Changelog for Weapons Balance 15.2.2022
+
+1.1.0.6
+- Moved White Tracer 5.56 AK magazines from RHS to 3CB Factions Weapons Balance.
+- Moved White Tracer 5.56 FAMAS magazines from PB to 3CB Factions Weapons Balance.
+- Intercom channels are now handled by TFAR Weapons Balance.
+- Renamed a lot of magazines to more accurately fit their contents.
+- Cleanup.
+
+# Changelog for Weapons Balance 29.12.2021
 
 1.1.0.5
 - Added intercom channels to RHIB boats.
 
-# Changelog for Weapons balance 25.12.2021
+# Changelog for Weapons Balance 25.12.2021
 
 1.1.0.4
 - Fixed muzzle slot compatibility.
 - Renamed "GL" to "M203".
 
-# Changelog for Weapons balance 2.12.2021
+# Changelog for Weapons Balance 2.12.2021
 
 1.1.0.3
 - Removed TFAR dependency.
 
-# Changelog for Weapons balance 13.11.2021
+# Changelog for Weapons Balance 13.11.2021
 
 1.1.0.2
 - Minor tweaks.
 
-# Changelog for Weapons balance 26.9.2021
+# Changelog for Weapons Balance 26.9.2021
 
 1.1.0.1
 - Weapon changes:
@@ -29,15 +38,15 @@
         - PSG1A1
             - Fixed picatinny rail by removing all G3 scopes
 
-# Changelog for Weapons balance 9.8.2021
+# Changelog for Weapons Balance 9.8.2021
 
 1.1.0.0
-- Added hemtt support
-- Added BettIR compatibility
-- Added weapon attachments compatibility
-- Added magazine compatibility to pistols
-- Balanced backpacks
-- Removed ability to drag and carry 3CB Factions MG nests
+- Added hemtt support.
+- Added BettIR compatibility.
+- Added weapon attachments compatibility.
+- Added magazine compatibility to pistols.
+- Balanced backpacks.
+- Removed ability to drag and carry 3CB Factions MG nests.
 
 - Weapon changes:
     - UK3CB Factions:
@@ -89,11 +98,11 @@
     - UK3CB Factions:
         - All (9x) 25Rnd 5.56x45 FAMAS mags from 0.57kg to 0.36kg
 
-# Changelog for Weapons balance 23.5.2021
+# Changelog for Weapons Balance 23.5.2021
 
 - Fixed startup errors
 
-# Changelog for Weapons balance 3.2.2021
+# Changelog for Weapons Balance 3.2.2021
 
 - Weapon changes:
     - UK3CB Factions:
@@ -119,11 +128,11 @@
         - 5.56 HK33:
             - Added 9x UK3CB Factions 30Rnd mags
 
-# Changelog for Weapons balance 24.12.2020
+# Changelog for Weapons Balance 24.12.2020
 
-- Fixed UK3CB Factions 5.45x39 & 7.62x39 mags to use correct type of ammo
-- Fixed .303 Lee-Enfield clips with white tracers to actually use white tracers
-- Changed RHS AK scopes configs on weapons to better fit the individual weapons
+- Fixed UK3CB Factions 5.45x39 & 7.62x39 mags to use correct type of ammo.
+- Fixed .303 Lee-Enfield clips with white tracers to actually use white tracers.
+- Changed RHS AK scopes configs on weapons to better fit the individual weapons.
 
 - Weapon changes:
     - UK3CB Factions:
@@ -155,7 +164,7 @@
         - All (9x) 10Rnd .303/7.7mm Lee Enfield from 0.20kg to 0.26kg
         - All (9x) 30Rnd 9x19mm Sterling mags from 0.45kg to 0.52kg
 
-# Changelog for Weapons balance 5.12.2020
+# Changelog for Weapons Balance 5.12.2020
 
 - Weapon changes:
     - UK3CB Factions:
@@ -173,7 +182,7 @@
             - Shovel & Bedroll:
                 - Decreased weight
 
-# Changelog for Weapons balance 23.8.2020
+# Changelog for Weapons Balance 23.8.2020
 
 - Weapon changes:
     - UK3CB Factions:
@@ -258,7 +267,7 @@
             - Changed weight from 2.81kg to 3.40kg
         - RPK:
             - Changed weight from 4.35kg to 4.81kg
-            - Fixed wrong inheritance that was introduced in the first version of WB balance (can't take picatinny accessories anymore)
+            - Fixed wrong inheritance that was introduced in the first version of WB Balance (can't take picatinny accessories anymore)
         - RPK-74:
             - Changed names to "RPK-74N"
             - Changed weight from 4.26kg to 4.58kg
@@ -326,7 +335,7 @@
         - All (9x) 10Rnd .303/7.7mm Lee Enfield from 0.07kg to 0.20kg
         - All (9x) 30Rnd HK33 5.56x45mm mags from 0.57kg to 0.42kg
 
-# Changelog for Weapons balance 29.7.2020
+# Changelog for Weapons Balance 29.7.2020
 
 - Weapon changes:
     - UK3CB Factions:

@@ -20,39 +20,23 @@ class CfgPatches {
             "uk3cb_factions_CCM",
             "uk3cb_factions_CHC",
             "uk3cb_factions_Common",
-            "UK3CB_Factions_CPD",
+            "uk3cb_factions_CPD",
             "uk3cb_factions_CW_SOV",
             "uk3cb_factions_CW_US",
             "uk3cb_factions_Equipment",
-            "UK3CB_Factions_Static_Bunkers",
+            "uk3cb_factions_Static_Bunkers",
             "uk3cb_factions_TKA",
             "uk3cb_factions_TKC",
             "uk3cb_factions_TKM",
             "uk3cb_factions_TKP",
             "uk3cb_factions_UN",
             "uk3cb_factions_Weapons",
-            "UK3CB_Factions_Weapons_MP5"
+            "uk3cb_factions_Weapons_MP5"
         };
         author = "johnb43";
+        authors[] = {"johnb43"};
         url = "https://github.com/johnb432/Weapons-Balance-3CBFactions";
         VERSION_CONFIG;
-    };
-};
-
-class CfgMods {
-    class PREFIX {
-        name = "Weapons Balance - 3CB Factions";
-        author = "johnb43";
-        tooltipOwned = "Weapons Balance - 3CB Factions";
-        hideName = 0;
-        hidePicture = 0;
-        actionName = "Github";
-        action = "https://github.com/johnb432/Weapons-Balance-3CBFactions";
-        description = "A collection of balancing mods made by johnb43.";
-        overview = "A collection of balancing mods made by johnb43.";
-        picture = "\z\wb_3cbfactions\addons\main\ui\logo_weapons_balance.paa"; // http://getdrawings.com/get-drawing#gun-drawing-in-pencil-27.jpg, http://getdrawings.com/get-drawing#gun-drawing-in-pencil-17.png
-        logo = "\z\wb_3cbfactions\addons\main\ui\logo_weapons_balance.paa";
-        overviewPicture = "\z\wb_3cbfactions\addons\main\ui\logo_weapons_balance.paa";
     };
 };
 
@@ -89,9 +73,11 @@ class CfgMagazines {
     #include "magazines\CfgMagFAL.hpp"
     #include "magazines\CfgMagG3.hpp"
     #include "magazines\CfgMagMisc.hpp"
-    #include "magazines\CfgMagNATO556.hpp"
-    #include "magazines\CfgMagNATO762.hpp"
+    #include "magazines\CfgMagSTANAG.hpp"
+    #include "magazines\CfgMagMisc556.hpp"
+    #include "magazines\CfgMagM14.hpp"
     #include "magazines\CfgMagRPK.hpp"
+    #include "magazines\CfgMagNew556.hpp"
 };
 
 class CfgVehicles {
