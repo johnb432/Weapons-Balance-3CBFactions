@@ -25,6 +25,7 @@ class CfgPatches {
             "uk3cb_factions_CW_US",
             "uk3cb_factions_Equipment",
             "uk3cb_factions_Static_Bunkers",
+            "uk3cb_factions_M79",
             "uk3cb_factions_TKA",
             "uk3cb_factions_TKC",
             "uk3cb_factions_TKM",

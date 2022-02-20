@@ -122,6 +122,11 @@ class UK3CB_Sten: SMG_02_F {
     };
 };
 
+class rhs_weap_m79;
+class UK3CB_M79: rhs_weap_m79 {
+    displayName = "M79";
+};
+
 class rhs_weap_svdp_npz;
 class UK3CB_SVD_OLD_NPZ: rhs_weap_svdp_npz {
     displayName = "SVD (NPZ)";

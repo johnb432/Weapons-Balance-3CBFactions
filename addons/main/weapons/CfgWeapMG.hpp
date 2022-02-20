@@ -56,17 +56,26 @@ class UK3CB_MG42_base: Rifle_Base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {};
 };
 class UK3CB_MG3: UK3CB_MG42_base {
+    displayName = "MG3";
     magazineWell[] += {"CBA_762x51_LINKS","CBA_762x51_MG3"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 253.5;
     };
 };
 class UK3CB_MG3_KWS_T: UK3CB_MG3 {
+    displayName = "MG3-KWS (Tan)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 257.5;
     };
 };
+class UK3CB_MG3_KWS_B: UK3CB_MG3_KWS_T {
+    displayName = "MG3-KWS";
+};
+class UK3CB_MG3_KWS_G: UK3CB_MG3_KWS_T {
+    displayName = "MG3-KWS (Green)";
+};
 class UK3CB_MG3_Railed: UK3CB_MG3 {
+    displayName = "LMG M/62";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 255.5;
     };

@@ -1,3 +1,8 @@
+# Changelog for Weapons Balance 20.2.2022
+
+1.1.0.7
+- Renames MG3s & M79 to fit better.
+
 # Changelog for Weapons Balance 15.2.2022
 
 1.1.0.6
