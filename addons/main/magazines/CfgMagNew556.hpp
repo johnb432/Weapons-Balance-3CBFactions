@@ -22,19 +22,19 @@ class rhs_30Rnd_556x45_M856A1_AK_White: rhs_mag_30Rnd_556x45_M855A1_Stanag_Trace
 
 class 25Rnd_556x45_famas_M855_tr_White: rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red {
     ammo = "UK3CB_556x45_Ball_Tracer_White";
-    author = "PB & 3CB & Red Hammer Studios & johnb43";
+    author = "3CB & Red Hammer Studios & johnb43";
     count = 25;
     descriptionShort = "Caliber: 5.56x45mm M856<br/>Type: Tracer<br/>Rounds: 25<br/>Used in: FAMAS";
     displayName = "25Rnd 5.56x45 M856 Mag (White Tracer)";
-    picture = "\bg21_famas_prplredux\data\inv\charg_tr_icone.paa";
+    picture = "\UK3CB_Factions\addons\UK3CB_Factions_Weapons\FAMAS\data\ui\uk3cb_icon_mag_famas_f1_white_ca.paa";
     mass = 8;
 };
 class 25Rnd_556x45_famas_M855A1_tr_White: rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
     ammo = "UK3CB_556x45_Ball_Tracer_White";
-    author = "PB & 3CB & Red Hammer Studios & johnb43";
+    author = "3CB & Red Hammer Studios & johnb43";
     count = 25;
     descriptionShort = "Caliber: 5.56x45mm M856A1<br/>Type: Tracer<br/>Rounds: 25<br/>Used in: FAMAS";
     displayName = "25Rnd 5.56x45 M856A1 Mag (White Tracer)";
-    picture = "\bg21_famas_prplredux\data\inv\charg_tr_icone.paa";
+    picture = "\UK3CB_Factions\addons\UK3CB_Factions_Weapons\FAMAS\data\ui\uk3cb_icon_mag_famas_f1_white_ca.paa";
     mass = 8;
 };
