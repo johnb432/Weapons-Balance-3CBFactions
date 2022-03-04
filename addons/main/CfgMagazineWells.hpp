@@ -126,7 +126,7 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_762x51_MG3 {
+    class CBA_762x51_MG3: CBA_762x51_LINKS {
         MAGAZINE_WELL[] += {
             "UK3CB_MG3_100rnd_762x51_GT",
             "UK3CB_MG3_100rnd_762x51_RT",
