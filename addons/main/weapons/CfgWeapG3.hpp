@@ -68,12 +68,12 @@ class UK3CB_HK33KA2: UK3CB_G3_Base {
     magazineWell[] = {"UK3CB_556x45_HK33"};
     class WeaponSlotsInfo {
         delete Cowslot;
+        class CowsSlot: UK3CB_OpticRail1913_G3 {};
     };
 };
 class UK3CB_HK33KA3: UK3CB_HK33KA2 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 86;
-        class CowsSlot: UK3CB_OpticRail1913_G3 {};
     };
 };
 class UK3CB_HK33KA2_RIS: UK3CB_HK33KA2 {
