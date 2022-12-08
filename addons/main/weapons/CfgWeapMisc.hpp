@@ -2,7 +2,7 @@ class rhs_weap_m16a4_carryhandle_M203;
 class rhs_weap_XM2010_Base_F;
 class UK3CB_M16A1_Base;
 class uk3cb_ak47_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class uk3cb_ak47: uk3cb_ak47_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -22,35 +22,11 @@ class uk3cb_ak47n: uk3cb_ak47 {
     };
 };
 
-class rhs_weap_fnfal_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class rhs_weap_l1a1_base: rhs_weap_fnfal_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class rhs_weap_l1a1: rhs_weap_l1a1_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class UK3CB_FNFAL_Base: rhs_weap_l1a1 {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class UK3CB_FNFAL_PARA: UK3CB_FNFAL_Base {
-    displayName = "FN FAL 50.62";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 95;
-    };
-};
-class UK3CB_FNFAL_FULL: UK3CB_FNFAL_PARA {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 94;
-    };
-};
-
 class UK3CB_FAMAS_F1_base: Rifle_Base_F {
     ACE_barrelLength = 488;
     ACE_barrelTwist = 304.8;
     magazineWell[] += {"CBA_556x45_FAMAS"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class UK3CB_FAMAS_F1: UK3CB_FAMAS_F1_base {
     displayName = "FAMAS F1 (Rail)";
@@ -59,7 +35,7 @@ class UK3CB_FAMAS_F1: UK3CB_FAMAS_F1_base {
     };
 };
 class UK3CB_FAMAS_F1_GLM203_base: UK3CB_FAMAS_F1_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class UK3CB_FAMAS_F1_GLM203: UK3CB_FAMAS_F1_GLM203_base {
     displayName = "FAMAS F1 (Rail/M203)";
@@ -130,6 +106,37 @@ class UK3CB_M79: rhs_weap_m79 {
 class rhs_weap_svdp_npz;
 class UK3CB_SVD_OLD_NPZ: rhs_weap_svdp_npz {
     displayName = "SVD (NPZ)";
+};
+
+class rhs_weap_m76;
+class uk3cb_sks_01: rhs_weap_m76 {
+    magazineWell[] = {"CBA_762x39_SKS","CBA_762x39_SKS_Clip"};
+    class WeaponSlotsInfo {
+        mass = 85;
+    };
+};
+class uk3cb_sks_02: uk3cb_sks_01 {
+    magazines[] = {"30Rnd_762x39_Mag_F"};
+};
+
+class UK3CB_M1903A1_base: Rifle_Base_F {
+    magazineWell[] = {"CBA_3006_Spring"};
+    class WeaponSlotsInfo;
+};
+class UK3CB_M1903A1: UK3CB_M1903A1_base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 86;
+    };
+};
+class UK3CB_M1903A1_unertl: UK3CB_M1903A1_base {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 102.5;
+    };
+};
+
+class rhs_weap_pp2000;
+class uk3cb_ppsh41: rhs_weap_pp2000 {
+    magazineWell[] = {"CBA_762x25_PPSh_Stick","CBA_762x25_PPSh_Drum"};
 };
 
 class hgun_P07_F;

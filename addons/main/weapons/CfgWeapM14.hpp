@@ -1,6 +1,8 @@
 class UK3CB_M14_base: Rifle_Base_F {
     magazines[] = {"UK3CB_M14_20rnd_762x51"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        delete Cowslot;
+    };
 };
 class UK3CB_M14: UK3CB_M14_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {

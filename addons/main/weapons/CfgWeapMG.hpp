@@ -1,5 +1,4 @@
-class Rifle_Long_Base_F: Rifle_Base_F {};
-class LMG_Zafir_F: Rifle_Long_Base_F {};
+class LMG_Zafir_F;
 class UK3CB_Bren: LMG_Zafir_F {
     displayName = "Bren L4A2";
     magazineWell[] = {"CBA_762x51_FAL", "CBA_762x51_FAL_L"};
@@ -9,7 +8,7 @@ class UK3CB_Bren: LMG_Zafir_F {
 };
 
 class UK3CB_M60_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class UK3CB_M60: UK3CB_M60_base {
     magazineWell[] += {"CBA_762x51_LINKS"};
@@ -53,7 +52,7 @@ class UK3CB_M60_mounted: LMG_RCWS {
 };
 
 class UK3CB_MG42_base: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class UK3CB_MG3: UK3CB_MG42_base {
     displayName = "MG3";

@@ -1,17 +1,17 @@
 class asdg_SlotInfo;
 class asdg_OpticRail: asdg_SlotInfo {
-    class compatibleItems {};
+    class compatibleItems;
 };
 
 class niarms_m14_OpticRail: asdg_OpticRail {
-    class compatibleItems: compatibleItems {
+    class compatibleItems {
         uk3cb_optic_pvs4_m14 = 1;
         uk3cb_optic_artel_m14 = 1;
     };
 };
 
 class asdg_OpticRailL1A1: asdg_OpticRail {
-    class compatibleItems: compatibleItems {
+    class compatibleItems {
         uk3cb_optic_suit_fnfal = 1;
     };
 };

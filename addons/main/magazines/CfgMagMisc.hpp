@@ -1,5 +1,7 @@
+class CA_Magazine;
 class 30Rnd_9x21_Mag;
 class 30Rnd_9x21_Mag_SMG_02;
+class UK3CB_CZ550_5rnd_Mag;
 class rhsusf_5Rnd_300winmag_xm2010;
 class rhsusf_100Rnd_762x51_m80a1epr;
 class UK3CB_M60_100rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
@@ -110,31 +112,41 @@ class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
 };
 
 class UK3CB_Sten_34Rnd_Magazine: 30Rnd_9x21_Mag_SMG_02 {
-    displayName = "34Rnd 9x19mm Sterling Mag (No Tracer)";
     mass = 11.5;
 };
 class UK3CB_Sten_34Rnd_Magazine_R: 30Rnd_9x21_Mag_SMG_02 {
-    displayName = "34Rnd 9x19mm Sterling Mag (2 x Red Tracer)";
     mass = 11.5;
 };
-class UK3CB_Sten_34Rnd_Magazine_G: UK3CB_Sten_34Rnd_Magazine_R {
-    displayName = "34Rnd 9x19mm Sterling Mag (2 x Green Tracer)";
+
+class uk3cb_10rnd_magazine_sks: CA_Magazine {
+    mass = 3.8;
 };
-class UK3CB_Sten_34Rnd_Magazine_W: UK3CB_Sten_34Rnd_Magazine_R {
-    displayName = "34Rnd 9x19mm Sterling Mag (2 x White Tracer)";
+
+class uk3cb_PPSH_71rnd_magazine: CA_Magazine {
+    mass = 20.7;
 };
-class UK3CB_Sten_34Rnd_Magazine_Y: UK3CB_Sten_34Rnd_Magazine_R {
-    displayName = "34Rnd 9x19mm Sterling Mag (2 x Yellow Tracer)";
+class uk3cb_PPSH_71rnd_magazine_R: CA_Magazine {
+    mass = 20.7;
 };
-class UK3CB_Sten_34Rnd_Magazine_GT: UK3CB_Sten_34Rnd_Magazine_G {
-    displayName = "34Rnd 9x19mm Sterling Mag (Green Tracer)";
+class uk3cb_PPSH_71rnd_magazine_RM: CA_Magazine {
+    mass = 20.7;
 };
-class UK3CB_Sten_34Rnd_Magazine_RT: UK3CB_Sten_34Rnd_Magazine_R {
-    displayName = "34Rnd 9x19mm Sterling Mag (Red Tracer)";
+class uk3cb_PPSH_71rnd_magazine_RT: CA_Magazine {
+    mass = 20.7;
 };
-class UK3CB_Sten_34Rnd_Magazine_WT: UK3CB_Sten_34Rnd_Magazine_W {
-    displayName = "34Rnd 9x19mm Sterling Mag (White Tracer)";
+
+class UK3CB_CZ550_5rnd_Mag_W: UK3CB_CZ550_5rnd_Mag {
+    ammo = "UK3CB_930x62_Ball_W";
 };
-class UK3CB_Sten_34Rnd_Magazine_YT: UK3CB_Sten_34Rnd_Magazine_Y {
-    displayName = "34Rnd 9x19mm Sterling Mag (Yellow Tracer)";
+class UK3CB_CZ550_5rnd_Mag_WT: UK3CB_CZ550_5rnd_Mag {
+    ammo = "UK3CB_930x62_Ball_W";
+};
+
+class UK3CB_M1903A1_3006_5rnd_Magazine: 30Rnd_556x45_Stanag {
+    mass = 2.8;
+};
+
+class UK3CB_UKM_100rnd_762x51_W;
+class UK3CB_UKM_100rnd_762x51_WM: UK3CB_UKM_100rnd_762x51_W {
+    displayname = "100rnd UKM-2000P M80/M62 Mixed Belt (White)";
 };
