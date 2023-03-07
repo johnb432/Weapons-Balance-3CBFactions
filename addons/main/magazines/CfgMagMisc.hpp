@@ -81,33 +81,7 @@ class UK3CB_MG3_50rnd_762x51_RT: UK3CB_MG3_50rnd_762x51_R {
     displayName = "50rnd MG3 M62 Tracer Belt (Red)";
 };
 
-class UK3CB_Enfield_10rnd_Mag: rhsusf_5Rnd_300winmag_xm2010 {
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_G: rhsusf_5Rnd_300winmag_xm2010 {
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_R: rhsusf_5Rnd_300winmag_xm2010 {
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_W: rhsusf_5Rnd_300winmag_xm2010 {
-    ammo = "UK3CB_303_Ball_W";
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_Y: rhsusf_5Rnd_300winmag_xm2010 {
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_GT: rhsusf_5Rnd_300winmag_xm2010 {
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_RT: rhsusf_5Rnd_300winmag_xm2010 {
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_WT: rhsusf_5Rnd_300winmag_xm2010 {
-    ammo = "UK3CB_303_Ball_W";
-    mass = 5.65;
-};
-class UK3CB_Enfield_10rnd_Mag_YT: rhsusf_5Rnd_300winmag_xm2010 {
+class uk3cb_no4_enfield_303_10Rnd_magazine: 20Rnd_762x51_Mag {
     mass = 5.65;
 };
 

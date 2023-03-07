@@ -71,20 +71,6 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_303B_LeeEn {
-        MAGAZINE_WELL[] += {
-            "UK3CB_Enfield_10rnd_Mag_G",
-            "UK3CB_Enfield_10rnd_Mag_R",
-            "UK3CB_Enfield_10rnd_Mag_W",
-            "UK3CB_Enfield_10rnd_Mag_Y",
-            "UK3CB_Enfield_10rnd_Mag",
-            "UK3CB_Enfield_10rnd_Mag_GT",
-            "UK3CB_Enfield_10rnd_Mag_RT",
-            "UK3CB_Enfield_10rnd_Mag_WT",
-            "UK3CB_Enfield_10rnd_Mag_YT"
-        };
-    };
-
     class CBA_556x45_AK {
         MAGAZINE_WELL[] += {
             "rhs_30Rnd_556x45_M856_AK_White",
@@ -110,6 +96,47 @@ class CfgMagazineWells {
 
     class CBA_556x45_HK33 {
         delete UK3CB_mags;
+    };
+
+    class CBA_556x45_G36 {
+        WB_Magazines[] += {
+            "UK3CB_G36_30rnd_556x45_G",
+            "UK3CB_G36_30rnd_556x45_R",
+            "UK3CB_G36_30rnd_556x45_W",
+            "UK3CB_G36_30rnd_556x45_Y",
+            "UK3CB_G36_30rnd_556x45",
+            "UK3CB_G36_30rnd_556x45_GT",
+            "UK3CB_G36_30rnd_556x45_RT",
+            "UK3CB_G36_30rnd_556x45_WT",
+            "UK3CB_G36_30rnd_556x45_YT",
+            "UK3CB_G36_100rnd_556x45_G",
+            "UK3CB_G36_100rnd_556x45_R",
+            "UK3CB_G36_100rnd_556x45_W",
+            "UK3CB_G36_100rnd_556x45_Y",
+            "UK3CB_G36_100rnd_556x45",
+            "UK3CB_G36_100rnd_556x45_GT",
+            "UK3CB_G36_100rnd_556x45_RT",
+            "UK3CB_G36_100rnd_556x45_WT",
+            "UK3CB_G36_100rnd_556x45_YT"
+        };
+    };
+
+    class CBA_57x28_P90 {
+        MAGAZINE_WELL[] += {
+            "UK3CB_P90_50rnd_570x28_Magazine_G",
+            "UK3CB_P90_50rnd_570x28_Magazine_R",
+            "UK3CB_P90_50rnd_570x28_Magazine_W",
+            "UK3CB_P90_50rnd_570x28_Magazine_Y",
+            "UK3CB_P90_50rnd_570x28_Magazine",
+            "UK3CB_P90_50rnd_570x28_Magazine_GM",
+            "UK3CB_P90_50rnd_570x28_Magazine_RM",
+            "UK3CB_P90_50rnd_570x28_Magazine_WM",
+            "UK3CB_P90_50rnd_570x28_Magazine_YM",
+            "UK3CB_P90_50rnd_570x28_Magazine_GT",
+            "UK3CB_P90_50rnd_570x28_Magazine_RT",
+            "UK3CB_P90_50rnd_570x28_Magazine_WT",
+            "UK3CB_P90_50rnd_570x28_Magazine_YT"
+        };
     };
 
     class CBA_75x55_STGW57 {

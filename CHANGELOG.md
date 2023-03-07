@@ -1,3 +1,10 @@
+# Changelog for Weapons Balance 7.3.2023
+
+1.1.0.12
+- Updated to work with latest version of 3CB Factions.
+- Minor fixes.
+- Minor rebalancing.
+
 # Changelog for Weapons Balance 8.12.2022
 
 1.1.0.11

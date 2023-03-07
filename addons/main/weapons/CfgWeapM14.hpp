@@ -41,3 +41,13 @@ class UK3CB_M14DMR_Railed: UK3CB_M14DMR {
         class CowsSlot {};
     };
 };
+class UK3CB_M14DMR_BLK: UK3CB_M14DMR {
+    class WeaponSlotsInfo;
+};
+class UK3CB_M14DMR_Railed_BLK: UK3CB_M14DMR_BLK {
+    displayName = "M14 DMR (Black/Rail)";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 99.2;
+        class CowsSlot {};
+    };
+};

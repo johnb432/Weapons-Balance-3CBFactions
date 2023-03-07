@@ -1,5 +1,5 @@
-class rhs_weap_l1a1;
-class UK3CB_FNFAL_Base: rhs_weap_l1a1 {
+class rhs_weap_fnfal_base;
+class UK3CB_FNFAL_Base: rhs_weap_fnfal_base {
     modes[] = {"Single","FullAuto","Single_AI","single_medium_optics1","single_far_optics2"};
     class WeaponSlotsInfo;
 };

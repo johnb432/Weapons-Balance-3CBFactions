@@ -17,6 +17,8 @@ class CfgPatches {
             "UK3CB_Factions_ADR",
             "UK3CB_Factions_ANA",
             "UK3CB_Factions_ANP",
+            "UK3CB_Factions_APD_B",
+            "UK3CB_Factions_Backpack2",
             "UK3CB_Factions_CCM",
             "UK3CB_Factions_CHC",
             "UK3CB_Factions_Common",
@@ -24,6 +26,28 @@ class CfgPatches {
             "UK3CB_Factions_CW_SOV",
             "UK3CB_Factions_CW_US",
             "UK3CB_Factions_Equipment",
+            "UK3CB_Factions_Equipment_Backpack",
+            "UK3CB_Factions_GAF_B",
+            "UK3CB_Factions_ION_B_Desert",
+            "UK3CB_Factions_ION_B_Urban",
+            "UK3CB_Factions_ION_B_Winter",
+            "UK3CB_Factions_ION_B_Woodland",
+            "UK3CB_Factions_ION_I_Desert",
+            "UK3CB_Factions_ION_I_Urban",
+            "UK3CB_Factions_ION_I_Winter",
+            "UK3CB_Factions_ION_I_Woodland",
+            "UK3CB_Factions_ION_O_Desert",
+            "UK3CB_Factions_ION_O_Urban",
+            "UK3CB_Factions_ION_O_Winter",
+            "UK3CB_Factions_ION_O_Woodland",
+            "UK3CB_Factions_LDF_I",
+            "UK3CB_Factions_LDF_O",
+            "UK3CB_Factions_LNM_B",
+            "UK3CB_Factions_LNM_I",
+            "UK3CB_Factions_LNM_O",
+            "UK3CB_Factions_LSM_B",
+            "UK3CB_Factions_LSM_I",
+            "UK3CB_Factions_LSM_O",
             "UK3CB_Factions_Static_Bunkers",
             "UK3CB_Factions_M79",
             "UK3CB_Factions_TKA",
@@ -40,6 +64,7 @@ class CfgPatches {
             "UK3CB_Factions_Weapons_FAMAS",
             "UK3CB_Factions_Weapons_FNFAL",
             "UK3CB_Factions_Weapons_G3",
+            "UK3CB_Factions_Weapons_G36",
             "UK3CB_Factions_Weapons_M14",
             "UK3CB_Factions_Weapons_M16",
             "UK3CB_Factions_Weapons_M1903Al",
@@ -84,6 +109,7 @@ class CfgWeapons {
     #include "weapons\CfgWeapAUG.hpp"
     #include "weapons\CfgWeapFAL.hpp"
     #include "weapons\CfgWeapG3.hpp"
+    #include "weapons\CfgWeapG36.hpp"
     #include "weapons\CfgWeapM14.hpp"
     #include "weapons\CfgWeapMG.hpp"
     #include "weapons\CfgWeapMP5.hpp"
@@ -108,8 +134,12 @@ class CfgMagazines {
 };
 
 class CfgVehicles {
-    #include "vehicles\CfgBackpacks.hpp"
-    #include "vehicles\CfgRadioBackpacks.hpp"
+    #include "vehicles\CfgBackpackAssault.hpp"
+    #include "vehicles\CfgBackpackCarryall.hpp"
+    #include "vehicles\CfgBackpackKitbag.hpp"
+    #include "vehicles\CfgBackpackMisc.hpp"
+    #include "vehicles\CfgBackpackRadio.hpp"
+    #include "vehicles\CfgBackpackTactical.hpp"
     #include "vehicles\CfgVehicles.hpp"
 };
 

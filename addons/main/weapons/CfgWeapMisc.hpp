@@ -1,6 +1,3 @@
-class rhs_weap_m16a4_carryhandle_M203;
-class rhs_weap_XM2010_Base_F;
-class UK3CB_M16A1_Base;
 class uk3cb_ak47_base: Rifle_Base_F {
     class WeaponSlotsInfo;
 };
@@ -44,21 +41,7 @@ class UK3CB_FAMAS_F1_GLM203: UK3CB_FAMAS_F1_GLM203_base {
     };
 };
 
-class UK3CB_Enfield: rhs_weap_XM2010_Base_F {
-    displayName = "Lee-Enfield No.4 Mk.I";
-    magazineWell[] = {"CBA_303B_LeeEn"};
-    class WeaponSlotsInfo {
-        mass = 92.4;
-    };
-};
-class UK3CB_Enfield_Rail: UK3CB_Enfield {
-    displayName = "Lee-Enfield No.4 Mk.I (Rail)";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 96.4;
-        class GripodSlot: asdg_UnderSlot {};
-    };
-};
-
+class UK3CB_M16A1_Base;
 class UK3CB_M16A1: UK3CB_M16A1_Base {
     class WeaponSlotsInfo {
         mass = 68.5;
@@ -83,6 +66,7 @@ class UK3CB_M16A2: UK3CB_M16a2_Base {
     };
 };
 
+class rhs_weap_m16a4_carryhandle_M203;
 class UK3CB_M16A2_UGL: rhs_weap_m16a4_carryhandle_M203 {
     displayName = "M16A2 (M203)";
     class WeaponSlotsInfo {
