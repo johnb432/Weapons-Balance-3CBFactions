@@ -92,6 +92,19 @@ class UK3CB_Sten_34Rnd_Magazine_R: 30Rnd_9x21_Mag_SMG_02 {
     mass = 11.5;
 };
 
+#if __has_include("\hlc_wp_mp5\config.bin")
+    class UK3CB_MP5_30Rnd_9x19_Magazine: 30Rnd_9x21_Mag {
+        model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
+        modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
+        modelSpecialIsProxy = 1;
+    };
+    class UK3CB_MP5_30Rnd_9x19_Magazine_R: 30Rnd_9x21_Mag {
+        model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
+        modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
+        modelSpecialIsProxy = 1;
+    };
+#endif
+
 class uk3cb_10rnd_magazine_sks: CA_Magazine {
     mass = 3.8;
 };

@@ -5,7 +5,6 @@ class UK3CB_STGW57_base: Rifle_Base_F {
 class UK3CB_STGW57: UK3CB_STGW57_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 125.6;
-        delete CowsSlot;
         class CowsSlot: UK3CB_OpticRail1913_STGW57 {};
     };
 };

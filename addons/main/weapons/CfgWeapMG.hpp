@@ -48,6 +48,55 @@ class UK3CB_M60_mounted: LMG_RCWS {
         "UK3CB_M60_100rnd_762x51_RM",
         "UK3CB_M60_100rnd_762x51_WM",
         "UK3CB_M60_100rnd_762x51_YM"
+
+        #if __has_include("\hlc_wp_m60E4\config.bin")
+            ,
+            "hlc_100Rnd_762x51_B_M60E4",
+            "hlc_100Rnd_762x51_Mdim_M60E4",
+            "hlc_100Rnd_762x51_M_M60E4",
+            "hlc_100Rnd_762x51_Barrier_M60E4",
+            "hlc_100Rnd_762x51_T_M60E4",
+            "hlc_200Rnd_762x51_B_M60E4",
+            "hlc_200Rnd_762x51_Mdim_M60E4",
+            "hlc_200Rnd_762x51_M_M60E4",
+            "hlc_200Rnd_762x51_Barrier_M60E4",
+            "hlc_200Rnd_762x51_T_M60E4"
+        #endif
+
+        #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_common\config.cpp")
+            ,
+            "UK3CB_BAF_762_100Rnd_Blank",
+            "UK3CB_BAF_762_100Rnd",
+            "UK3CB_BAF_762_100Rnd_T",
+            "UK3CB_BAF_762_200Rnd_Blank",
+            "UK3CB_BAF_762_200Rnd",
+            "UK3CB_BAF_762_200Rnd_T",
+            "UK3CB_BAF_762_800Rnd_Blank",
+            "UK3CB_BAF_762_800Rnd",
+            "UK3CB_BAF_762_800Rnd_T"
+        #endif
+
+        #if __has_include("\bwa3_common\config.bin")
+            ,
+            "BWA3_120Rnd_762x51_soft",
+            "BWA3_120Rnd_762x51_Tracer_soft",
+            "BWA3_120Rnd_762x51",
+            "BWA3_120Rnd_762x51_Tracer",
+            "BWA3_1200Rnd_762x51"
+        #endif
+
+        #if __has_include("\AMF_mag58\config.bin")
+            ,
+            "50Rnd_762x51_band",
+            "50Rnd_mag58_mag",
+            "50Rnd_mag58_mag_Tracer_green",
+            "50Rnd_mag58_mag_Tracer_red",
+            "50Rnd_mag58_mag_tracer_yellow",
+            "75Rnd_mag58_mag",
+            "75Rnd_mag58_mag_Tracer_green",
+            "75Rnd_mag58_mag_Tracer_red",
+            "75Rnd_mag58_mag_tracer_yellow"
+        #endif
     };
 };
 
