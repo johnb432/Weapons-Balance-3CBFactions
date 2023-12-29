@@ -1,6 +1,12 @@
-class UK3CB_STGW57_24rnd_75x55: 30rnd_556x45_stanag {
+#pragma hemtt flag pe23_ignore_has_include
+
+class UK3CB_STGW57_24rnd_75x55: 30Rnd_556x45_Stanag {
     mass = 20;
-    modelSpecial = "";
+
+    #if __has_include("\hlc_wp_sigamt\config.bin")
+        modelSpecial = "\hlc_wp_sigamt\mesh\magazine\Proxy\24rnd_GP11_STGW57";
+        modelSpecialIsProxy = 1;
+    #endif
 };
 
 class UK3CB_STGW57_AMT_20Rnd_762x51: UK3CB_STGW57_24rnd_75x55 {

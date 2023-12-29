@@ -34,16 +34,16 @@ class UK3CB_HK33_30rnd_556x45_YT: UK3CB_HK33_30rnd_556x45_Y {
 class UK3CB_FAMAS_25rnd_556x45: 30Rnd_556x45_Stanag {
     mass = 8;
 };
-class UK3CB_FAMAS_25rnd_556x45_G: 30rnd_556x45_stanag {
+class UK3CB_FAMAS_25rnd_556x45_G: 30Rnd_556x45_Stanag {
     mass = 8;
 };
-class UK3CB_FAMAS_25rnd_556x45_R: 30rnd_556x45_stanag {
+class UK3CB_FAMAS_25rnd_556x45_R: 30Rnd_556x45_Stanag {
     mass = 8;
 };
-class UK3CB_FAMAS_25rnd_556x45_W: 30rnd_556x45_stanag {
+class UK3CB_FAMAS_25rnd_556x45_W: 30Rnd_556x45_Stanag {
     mass = 8;
 };
-class UK3CB_FAMAS_25rnd_556x45_Y: 30rnd_556x45_stanag {
+class UK3CB_FAMAS_25rnd_556x45_Y: 30Rnd_556x45_Stanag {
     mass = 8;
 };
 class UK3CB_FAMAS_25rnd_556x45_GT: UK3CB_FAMAS_25rnd_556x45_G {

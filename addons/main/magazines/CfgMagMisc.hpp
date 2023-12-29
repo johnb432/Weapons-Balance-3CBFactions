@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class CA_Magazine;
 class 30Rnd_9x21_Mag;
 class 30Rnd_9x21_Mag_SMG_02;

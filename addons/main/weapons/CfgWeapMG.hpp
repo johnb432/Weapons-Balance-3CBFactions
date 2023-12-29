@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class LMG_Zafir_F;
 class UK3CB_Bren: LMG_Zafir_F {
     displayName = "Bren L4A2";
