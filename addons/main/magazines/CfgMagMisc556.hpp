@@ -61,7 +61,7 @@ class UK3CB_FAMAS_25rnd_556x45_YT: UK3CB_FAMAS_25rnd_556x45_Y {
 
 
 class UK3CB_G36_30rnd_556x45: 30Rnd_556x45_Stanag {
-    mass = 8;
+    mass = 9.35;
 };
 class UK3CB_G36_100rnd_556x45: 30Rnd_556x45_Stanag {
     mass = 35.2;

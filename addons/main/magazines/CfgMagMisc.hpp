@@ -96,13 +96,22 @@ class UK3CB_Sten_34Rnd_Magazine_R: 30Rnd_9x21_Mag_SMG_02 {
 
 #if __has_include("\hlc_wp_mp5\config.bin")
     class UK3CB_MP5_30Rnd_9x19_Magazine: 30Rnd_9x21_Mag {
-        model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
         modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
         modelSpecialIsProxy = 1;
     };
     class UK3CB_MP5_30Rnd_9x19_Magazine_R: 30Rnd_9x21_Mag {
-        model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
         modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
+        modelSpecialIsProxy = 1;
+    };
+
+    class UK3CB_MP5_30Rnd_10_Magazine: 30Rnd_9x21_Mag {
+        model = "hlc_wp_mp5\mesh\magazine\magazine_10mm.p3d";
+        modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_10MM_MP510";
+        modelSpecialIsProxy = 1;
+    };
+    class UK3CB_MP5_30Rnd_10_Magazine_R: 30Rnd_9x21_Mag {
+        model = "hlc_wp_mp5\mesh\magazine\magazine_10mm.p3d";
+        modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_10MM_MP510";
         modelSpecialIsProxy = 1;
     };
 #endif
@@ -133,6 +142,7 @@ class UK3CB_CZ550_5rnd_Mag_WT: UK3CB_CZ550_5rnd_Mag {
 
 class UK3CB_M1903A1_3006_5rnd_Magazine: 30Rnd_556x45_Stanag {
     mass = 2.8;
+    modelSpecial = "";
 };
 
 class UK3CB_UKM_100rnd_762x51_W;

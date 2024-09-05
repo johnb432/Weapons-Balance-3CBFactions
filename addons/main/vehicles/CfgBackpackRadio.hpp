@@ -45,7 +45,6 @@ class UK3CB_US_B_B_RIF_UCP_Radio: rhsusf_assault_eagleaiii_ucp {
     tf_range = 40000;
 };
 
-class rhs_assault_umbts;
 class UK3CB_TKA_O_B_RIF_Tan_Radio: rhs_assault_umbts {
     mass = 90;
     tf_range = 40000;
@@ -146,7 +145,6 @@ class UK3CB_B_B_Tactical_Backpack_Radio: TFAR_rt1523g_big {
     tf_range = 40000;
 };
 
-class B_FieldPack_blk;
 class UK3CB_AAF_I_B_FIELDPACK_DIGI_BLK_Radio: B_FieldPack_blk {
     mass = 85;
     tf_range = 40000;
@@ -192,6 +190,13 @@ class type: parent {\
     tf_range = 40000;\
 }
 
+#define BAG_RADIO_WEIGHT(type,parent,weight)\
+class type: parent {\
+    maximumLoad = 240;\
+    tf_range = 40000;\
+    mass = weight;\
+}
+
 #define BAG_RADIO_PARENT(type,parent)\
 class parent;\
 BAG_RADIO(type,parent)
@@ -219,3 +224,24 @@ BAG_RADIO(UK3CB_ION_B_B_RadioBag_BRN,B_RadioBag_01_black_F);
 BAG_RADIO(UK3CB_ION_B_B_RadioBag_DES,B_RadioBag_01_black_F);
 BAG_RADIO(UK3CB_ION_B_B_RadioBag_OLI,B_RadioBag_01_black_F);
 BAG_RADIO(UK3CB_ION_B_B_RadioBag_WIN,B_RadioBag_01_black_F);
+
+BAG_RADIO(UK3CB_CSAT_A_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_B_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_G_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_F_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_F_O_B_RadioBag_UCP,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_N_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_M_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_U_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_S_O_B_RadioBag,B_RadioBag_01_eaf_F);
+BAG_RADIO(UK3CB_CSAT_W_O_B_RadioBag,B_RadioBag_01_eaf_F);
+
+BAG_RADIO(UK3CB_B_O_RadioBag_BLK,B_RadioBag_01_black_F);
+BAG_RADIO(UK3CB_B_O_RadioBag_GRN,B_RadioBag_01_black_F);
+BAG_RADIO(UK3CB_B_O_RadioBag_KHK,B_RadioBag_01_black_F);
+BAG_RADIO(UK3CB_B_O_RadioBag_TAN,B_RadioBag_01_black_F);
+BAG_RADIO(UK3CB_B_O_RadioBag_WIN,B_RadioBag_01_black_F);
+
+BAG_RADIO_WEIGHT(UK3CB_CSAT_W_O_B_UMBTS_RADIO,rhs_assault_umbts,90);
+BAG_RADIO_WEIGHT(UK3CB_CSAT_U_O_B_UMBTS_RADIO,rhs_assault_umbts,90);
+BAG_RADIO_WEIGHT(UK3CB_CSAT_S_O_B_UMBTS_RADIO,rhs_assault_umbts,90);

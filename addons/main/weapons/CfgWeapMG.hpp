@@ -1,7 +1,7 @@
 #pragma hemtt flag pe23_ignore_has_include
 
-class LMG_Zafir_F;
-class UK3CB_Bren: LMG_Zafir_F {
+class UK3CB_Bren_L4_LMG;
+class UK3CB_Bren: UK3CB_Bren_L4_LMG {
     displayName = "Bren L4A2";
     magazineWell[] = {"CBA_762x51_FAL", "CBA_762x51_FAL_L"};
     class WeaponSlotsInfo {
@@ -65,7 +65,7 @@ class UK3CB_M60_mounted: LMG_RCWS {
             "hlc_200Rnd_762x51_T_M60E4"
         #endif
 
-        #if __has_include("\UK3CB_Factions\addons\UK3CB_Factions_common\config.cpp")
+        #if __has_include("\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\config.bin")
             ,
             "UK3CB_BAF_762_100Rnd_Blank",
             "UK3CB_BAF_762_100Rnd",
@@ -131,6 +131,7 @@ class UK3CB_MG3_Railed: UK3CB_MG3 {
     };
 };
 
+class LMG_Zafir_F;
 class UK3CB_RPK: LMG_Zafir_F {
     class WeaponSlotsInfo {
         mass = 106;
