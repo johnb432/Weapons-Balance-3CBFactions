@@ -1,6 +1,62 @@
 class CfgMagazineWells {
     class AK_545x39 {
         MAGAZINE_WELL[] += {
+            "UK3CB_AEK971_30Rnd_Magazine",
+            "UK3CB_AEK971_30Rnd_Magazine_G",
+            "UK3CB_AEK971_30Rnd_Magazine_GT",
+            "UK3CB_AEK971_30Rnd_Magazine_R",
+            "UK3CB_AEK971_30Rnd_Magazine_RT",
+            "UK3CB_AEK971_30Rnd_Magazine_Y",
+            "UK3CB_AEK971_30Rnd_Magazine_YT",
+            "UK3CB_AEK971_30Rnd_Magazine_W",
+            "UK3CB_AEK971_30Rnd_Magazine_WT",
+            "UK3CB_AEK971_45Rnd_Magazine",
+            "UK3CB_AEK971_45Rnd_Magazine_G",
+            "UK3CB_AEK971_45Rnd_Magazine_GT",
+            "UK3CB_AEK971_45Rnd_Magazine_R",
+            "UK3CB_AEK971_45Rnd_Magazine_RT",
+            "UK3CB_AEK971_45Rnd_Magazine_Y",
+            "UK3CB_AEK971_45Rnd_Magazine_YT",
+            "UK3CB_AEK971_45Rnd_Magazine_W",
+            "UK3CB_AEK971_45Rnd_Magazine_WT",
+            "UK3CB_AEK971_60Rnd_Magazine",
+            "UK3CB_AEK971_60Rnd_Magazine_G",
+            "UK3CB_AEK971_60Rnd_Magazine_GT",
+            "UK3CB_AEK971_60Rnd_Magazine_R",
+            "UK3CB_AEK971_60Rnd_Magazine_RT",
+            "UK3CB_AEK971_60Rnd_Magazine_Y",
+            "UK3CB_AEK971_60Rnd_Magazine_YT",
+            "UK3CB_AEK971_60Rnd_Magazine_W",
+            "UK3CB_AEK971_60Rnd_Magazine_WT",
+
+            "UK3CB_AK12_30Rnd_Magazine",
+            "UK3CB_AK12_30Rnd_Magazine_G",
+            "UK3CB_AK12_30Rnd_Magazine_GT",
+            "UK3CB_AK12_30Rnd_Magazine_R",
+            "UK3CB_AK12_30Rnd_Magazine_RT",
+            "UK3CB_AK12_30Rnd_Magazine_Y",
+            "UK3CB_AK12_30Rnd_Magazine_YT",
+            "UK3CB_AK12_30Rnd_Magazine_W",
+            "UK3CB_AK12_30Rnd_Magazine_WT",
+            "UK3CB_AK12_45Rnd_Magazine",
+            "UK3CB_AK12_45Rnd_Magazine_G",
+            "UK3CB_AK12_45Rnd_Magazine_GT",
+            "UK3CB_AK12_45Rnd_Magazine_R",
+            "UK3CB_AK12_45Rnd_Magazine_RT",
+            "UK3CB_AK12_45Rnd_Magazine_Y",
+            "UK3CB_AK12_45Rnd_Magazine_YT",
+            "UK3CB_AK12_45Rnd_Magazine_W",
+            "UK3CB_AK12_45Rnd_Magazine_WT",
+            "UK3CB_AK12_60Rnd_Magazine",
+            "UK3CB_AK12_60Rnd_Magazine_G",
+            "UK3CB_AK12_60Rnd_Magazine_GT",
+            "UK3CB_AK12_60Rnd_Magazine_R",
+            "UK3CB_AK12_60Rnd_Magazine_RT",
+            "UK3CB_AK12_60Rnd_Magazine_Y",
+            "UK3CB_AK12_60Rnd_Magazine_YT",
+            "UK3CB_AK12_60Rnd_Magazine_W",
+            "UK3CB_AK12_60Rnd_Magazine_WT",
+
             "UK3CB_RPK74_60rnd_545x39_G",
             "UK3CB_RPK74_60rnd_545x39_R",
             "UK3CB_RPK74_60rnd_545x39_W",
@@ -19,41 +75,105 @@ class CfgMagazineWells {
 
     class AK_762x39 {
         MAGAZINE_WELL[] += {
-            "UK3CB_AK47_30Rnd_Magazine_G",
-            "UK3CB_AK47_30Rnd_Magazine_R",
-            "UK3CB_AK47_30Rnd_Magazine_W",
-            "UK3CB_AK47_30Rnd_Magazine_Y",
-            "UK3CB_AK47_30Rnd_Magazine",
-            "UK3CB_AK47_30Rnd_Magazine_GT",
-            "UK3CB_AK47_30Rnd_Magazine_RT",
-            "UK3CB_AK47_30Rnd_Magazine_WT",
-            "UK3CB_AK47_30Rnd_Magazine_YT",
-            "UK3CB_AK47_45Rnd_Magazine_G",
-            "UK3CB_AK47_45Rnd_Magazine_R",
-            "UK3CB_AK47_45Rnd_Magazine_W",
-            "UK3CB_AK47_45Rnd_Magazine_Y",
-            "UK3CB_AK47_45Rnd_Magazine",
-            "UK3CB_AK47_45Rnd_Magazine_GT",
-            "UK3CB_AK47_45Rnd_Magazine_RT",
-            "UK3CB_AK47_45Rnd_Magazine_WT",
-            "UK3CB_AK47_45Rnd_Magazine_YT",
-            "UK3CB_RPK_75rnd_762x39_G",
-            "UK3CB_RPK_75rnd_762x39_R",
-            "UK3CB_RPK_75rnd_762x39_W",
-            "UK3CB_RPK_75rnd_762x39_Y",
-            "UK3CB_RPK_75rnd_762x39",
-            "UK3CB_RPK_75rnd_762x39_GM",
-            "UK3CB_RPK_75rnd_762x39_RM",
-            "UK3CB_RPK_75rnd_762x39_WM",
-            "UK3CB_RPK_75rnd_762x39_YM",
-            "UK3CB_RPK_75rnd_762x39_GT",
-            "UK3CB_RPK_75rnd_762x39_RT",
-            "UK3CB_RPK_75rnd_762x39_WT",
-            "UK3CB_RPK_75rnd_762x39_YT",
-            "UK3CB_AK47_45Rnd_Magazine_T",
             "UK3CB_AK47_30Rnd_Magazine_T",
+            "UK3CB_AK47_45Rnd_Magazine",
+            "UK3CB_AK47_45Rnd_Magazine_T",
+            "UK3CB_AK47_45Rnd_Magazine_G",
+            "UK3CB_AK47_45Rnd_Magazine_GT",
+            "UK3CB_AK47_45Rnd_Magazine_R",
+            "UK3CB_AK47_45Rnd_Magazine_RT",
+            "UK3CB_AK47_45Rnd_Magazine_Y",
+            "UK3CB_AK47_45Rnd_Magazine_YT",
+            "UK3CB_AK47_45Rnd_Magazine_W",
+            "UK3CB_AK47_45Rnd_Magazine_WT",
+            "UK3CB_AK47_30Rnd_Magazine",
+            "UK3CB_AK47_40Rnd_Magazine",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite",
+            "UK3CB_AK47_30Rnd_Magazine_G",
+            "UK3CB_AK47_30Rnd_Magazine_GT",
+            "UK3CB_AK47_40Rnd_Magazine_G",
+            "UK3CB_AK47_40Rnd_Magazine_GT",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_G",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_GT",
+            "UK3CB_AK47_30Rnd_Magazine_R",
+            "UK3CB_AK47_30Rnd_Magazine_RT",
+            "UK3CB_AK47_40Rnd_Magazine_R",
+            "UK3CB_AK47_40Rnd_Magazine_RT",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_R",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_RT",
+            "UK3CB_AK47_30Rnd_Magazine_Y",
+            "UK3CB_AK47_30Rnd_Magazine_YT",
+            "UK3CB_AK47_40Rnd_Magazine_Y",
+            "UK3CB_AK47_40Rnd_Magazine_YT",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_Y",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_YT",
+            "UK3CB_AK47_30Rnd_Magazine_W",
+            "UK3CB_AK47_30Rnd_Magazine_WT",
+            "UK3CB_AK47_40Rnd_Magazine_W",
+            "UK3CB_AK47_40Rnd_Magazine_WT",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_W",
+            "UK3CB_AK47_40Rnd_Magazine_Bakelite_WT",
+
+            "UK3CB_RK62_30Rnd_Magazine",
+            "UK3CB_RK62_30Rnd_Magazine_G",
+            "UK3CB_RK62_30Rnd_Magazine_GT",
+            "UK3CB_RK62_30Rnd_Magazine_R",
+            "UK3CB_RK62_30Rnd_Magazine_RT",
+            "UK3CB_RK62_30Rnd_Magazine_Y",
+            "UK3CB_RK62_30Rnd_Magazine_YT",
+            "UK3CB_RK62_30Rnd_Magazine_W",
+            "UK3CB_RK62_30Rnd_Magazine_WT",
+            "UK3CB_RK62_40Rnd_Magazine",
+            "UK3CB_RK62_40Rnd_Magazine_G",
+            "UK3CB_RK62_40Rnd_Magazine_GT",
+            "UK3CB_RK62_40Rnd_Magazine_R",
+            "UK3CB_RK62_40Rnd_Magazine_RT",
+            "UK3CB_RK62_40Rnd_Magazine_Y",
+            "UK3CB_RK62_40Rnd_Magazine_YT",
+            "UK3CB_RK62_40Rnd_Magazine_W",
+            "UK3CB_RK62_40Rnd_Magazine_WT",
+            "UK3CB_RK62_75Rnd_Magazine",
+            "UK3CB_RK62_75Rnd_Magazine_G",
+            "UK3CB_RK62_75Rnd_Magazine_GM",
+            "UK3CB_RK62_75Rnd_Magazine_GT",
+            "UK3CB_RK62_75Rnd_Magazine_R",
+            "UK3CB_RK62_75Rnd_Magazine_RM",
+            "UK3CB_RK62_75Rnd_Magazine_RT",
+            "UK3CB_RK62_75Rnd_Magazine_Y",
+            "UK3CB_RK62_75Rnd_Magazine_YM",
+            "UK3CB_RK62_75Rnd_Magazine_YT",
+            "UK3CB_RK62_75Rnd_Magazine_W",
+            "UK3CB_RK62_75Rnd_Magazine_WM",
+            "UK3CB_RK62_75Rnd_Magazine_WT",
+
             "UK3CB_RPK_75Rnd_Drum",
-            "UK3CB_RPK_75Rnd_Drum_T"
+            "UK3CB_RPK_75Rnd_Drum_T",
+            "UK3CB_RPK_40rnd_762x39",
+            "UK3CB_RPK_40rnd_762x39_R",
+            "UK3CB_RPK_40rnd_762x39_RM",
+            "UK3CB_RPK_40rnd_762x39_RT",
+            "UK3CB_RPK_40rnd_762x39_Y",
+            "UK3CB_RPK_40rnd_762x39_YM",
+            "UK3CB_RPK_40rnd_762x39_YT",
+            "UK3CB_RPK_40rnd_762x39_G",
+            "UK3CB_RPK_40rnd_762x39_GM",
+            "UK3CB_RPK_40rnd_762x39_GT",
+            "UK3CB_RPK_40rnd_762x39_W",
+            "UK3CB_RPK_40rnd_762x39_WM",
+            "UK3CB_RPK_40rnd_762x39_WT",
+            "UK3CB_RPK_75rnd_762x39",
+            "UK3CB_RPK_75rnd_762x39_R",
+            "UK3CB_RPK_75rnd_762x39_RM",
+            "UK3CB_RPK_75rnd_762x39_RT",
+            "UK3CB_RPK_75rnd_762x39_Y",
+            "UK3CB_RPK_75rnd_762x39_YM",
+            "UK3CB_RPK_75rnd_762x39_YT",
+            "UK3CB_RPK_75rnd_762x39_G",
+            "UK3CB_RPK_75rnd_762x39_GM",
+            "UK3CB_RPK_75rnd_762x39_GT",
+            "UK3CB_RPK_75rnd_762x39_W",
+            "UK3CB_RPK_75rnd_762x39_WM",
+            "UK3CB_RPK_75rnd_762x39_WT"
         };
     };
 
@@ -91,56 +211,6 @@ class CfgMagazineWells {
             "UK3CB_FAMAS_25rnd_556x45_WT",
             "25Rnd_556x45_famas_M855_tr_White",
             "25Rnd_556x45_famas_M855A1_tr_White"
-        };
-    };
-
-    class CBA_556x45_HK33 {
-        delete UK3CB_mags;
-    };
-
-    class CBA_556x45_G36 {
-        WB_Magazines[] += {
-            "UK3CB_G36_30rnd_556x45_G",
-            "UK3CB_G36_30rnd_556x45_R",
-            "UK3CB_G36_30rnd_556x45_W",
-            "UK3CB_G36_30rnd_556x45_Y",
-            "UK3CB_G36_30rnd_556x45",
-            "UK3CB_G36_30rnd_556x45_GT",
-            "UK3CB_G36_30rnd_556x45_RT",
-            "UK3CB_G36_30rnd_556x45_WT",
-            "UK3CB_G36_30rnd_556x45_YT",
-            "UK3CB_G36_100rnd_556x45_G",
-            "UK3CB_G36_100rnd_556x45_R",
-            "UK3CB_G36_100rnd_556x45_W",
-            "UK3CB_G36_100rnd_556x45_Y",
-            "UK3CB_G36_100rnd_556x45",
-            "UK3CB_G36_100rnd_556x45_GT",
-            "UK3CB_G36_100rnd_556x45_RT",
-            "UK3CB_G36_100rnd_556x45_WT",
-            "UK3CB_G36_100rnd_556x45_YT"
-        };
-    };
-
-    class CBA_556x45_STANAG {
-        MAGAZINE_WELL[] += {
-            "UK3CB_M16_30rnd_556x45_G",
-            "UK3CB_M16_30rnd_556x45_R",
-            "UK3CB_M16_20rnd_556x45_W",
-            "UK3CB_M16_20rnd_556x45_Y",
-            "UK3CB_M16_20rnd_556x45",
-            "UK3CB_M16_20rnd_556x45_GT",
-            "UK3CB_M16_20rnd_556x45_RT",
-            "UK3CB_M16_20rnd_556x45_WT",
-            "UK3CB_M16_20rnd_556x45_YT",
-            "UK3CB_M16_30rnd_556x45_G",
-            "UK3CB_M16_30rnd_556x45_R",
-            "UK3CB_M16_30rnd_556x45_W",
-            "UK3CB_M16_30rnd_556x45_Y",
-            "UK3CB_M16_30rnd_556x45",
-            "UK3CB_M16_30rnd_556x45_GT",
-            "UK3CB_M16_30rnd_556x45_RT",
-            "UK3CB_M16_30rnd_556x45_WT",
-            "UK3CB_M16_30rnd_556x45_YT"
         };
     };
 
@@ -194,17 +264,21 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_762x39_AK {
+    class CBA_762x39_RPD {
         MAGAZINE_WELL[] += {
-            "UK3CB_AK47_45Rnd_Magazine_T",
-            "UK3CB_AK47_30Rnd_Magazine_T"
-        };
-    };
-
-    class CBA_762x39_RPK {
-        MAGAZINE_WELL[] += {
-            "UK3CB_RPK_75Rnd_Drum",
-            "UK3CB_RPK_75Rnd_Drum_T"
+            "UK3CB_RPD_100rnd_762x39",
+            "UK3CB_RPD_100rnd_762x39_G",
+            "UK3CB_RPD_100rnd_762x39_R",
+            "UK3CB_RPD_100rnd_762x39_W",
+            "UK3CB_RPD_100rnd_762x39_Y",
+            "UK3CB_RPD_100rnd_762x39_GM",
+            "UK3CB_RPD_100rnd_762x39_RM",
+            "UK3CB_RPD_100rnd_762x39_WM",
+            "UK3CB_RPD_100rnd_762x39_YM",
+            "UK3CB_RPD_100rnd_762x39_GT",
+            "UK3CB_RPD_100rnd_762x39_RT",
+            "UK3CB_RPD_100rnd_762x39_WT",
+            "UK3CB_RPD_100rnd_762x39_YT"
         };
     };
 
@@ -233,13 +307,6 @@ class CfgMagazineWells {
             "uk3cb_10rnd_magazine_sks_R",
             "uk3cb_10rnd_magazine_sks_W",
             "uk3cb_10rnd_magazine_sks_Y"
-        };
-    };
-
-    class CBA_762x51_FAL {
-        MAGAZINE_WELL[] += {
-            "UK3CB_FNFAL_762_20Rnd",
-            "UK3CB_FNFAL_762_20Rnd_T",
         };
     };
 
@@ -343,17 +410,20 @@ class CfgMagazineWells {
         };
     };
 
-    class CBA_762x54R_SVD {
+    class CBA_762x54R_Vz59_LINKS {
         MAGAZINE_WELL[] += {
-            "UK3CB_SVD_10rnd_762x54_G",
-            "UK3CB_SVD_10rnd_762x54_R",
-            "UK3CB_SVD_10rnd_762x54_W",
-            "UK3CB_SVD_10rnd_762x54_Y",
-            "UK3CB_SVD_10rnd_762x54",
-            "UK3CB_SVD_10rnd_762x54_GT",
-            "UK3CB_SVD_10rnd_762x54_RT",
-            "UK3CB_SVD_10rnd_762x54_WT",
-            "UK3CB_SVD_10rnd_762x54_YT"
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_R",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_G",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_W",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_Y",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_GM",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_RM",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_WM",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_YM",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_GT",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_RT",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_WT",
+            "UK3CB_UK59_100Rnd_762x54mmR_Magazine_YT"
         };
     };
 
@@ -402,6 +472,20 @@ class CfgMagazineWells {
     class CBA_9x19_STEYR {
         MAGAZINE_WELL[] += {
             "UK3CB_AUG_25Rnd_9x19mm_Magazine"
+        };
+    };
+
+    class CBA_9x19_UZI {
+        MAGAZINE_WELL[] += {
+            "UK3CB_Uzi_32Rnd_Magazine",
+            "UK3CB_Uzi_32Rnd_Magazine_G",
+            "UK3CB_Uzi_32Rnd_Magazine_R",
+            "UK3CB_Uzi_32Rnd_Magazine_W",
+            "UK3CB_Uzi_32Rnd_Magazine_Y",
+            "UK3CB_Uzi_32Rnd_Magazine_GT",
+            "UK3CB_Uzi_32Rnd_Magazine_RT",
+            "UK3CB_Uzi_32Rnd_Magazine_WT",
+            "UK3CB_Uzi_32Rnd_Magazine_YT"
         };
     };
 
@@ -470,7 +554,26 @@ class CfgMagazineWells {
             "UK3CB_M16_30rnd_556x45_GT",
             "UK3CB_M16_30rnd_556x45_RT",
             "UK3CB_M16_30rnd_556x45_WT",
-            "UK3CB_M16_30rnd_556x45_YT"
+            "UK3CB_M16_30rnd_556x45_YT",
+
+            "UK3CB_AR18_20rnd_556x45",
+            "UK3CB_AR18_20rnd_556x45_R",
+            "UK3CB_AR18_20rnd_556x45_RT",
+            "UK3CB_AR18_20rnd_556x45_Y",
+            "UK3CB_AR18_20rnd_556x45_YT",
+            "UK3CB_AR18_20rnd_556x45_G",
+            "UK3CB_AR18_20rnd_556x45_GT",
+            "UK3CB_AR18_20rnd_556x45_W",
+            "UK3CB_AR18_20rnd_556x45_WT",
+            "UK3CB_AR18_30rnd_556x45",
+            "UK3CB_AR18_30rnd_556x45_R",
+            "UK3CB_AR18_30rnd_556x45_RT",
+            "UK3CB_AR18_30rnd_556x45_Y",
+            "UK3CB_AR18_30rnd_556x45_YT",
+            "UK3CB_AR18_30rnd_556x45_G",
+            "UK3CB_AR18_30rnd_556x45_GT",
+            "UK3CB_AR18_30rnd_556x45_W",
+            "UK3CB_AR18_30rnd_556x45_WT"
         };
     };
 
@@ -485,24 +588,6 @@ class CfgMagazineWells {
             "UK3CB_SVD_10rnd_762x54_RT",
             "UK3CB_SVD_10rnd_762x54_WT",
             "UK3CB_SVD_10rnd_762x54_YT"
-        };
-    };
-
-    class UK3CB_556x45_HK33 {
-        MAGAZINE_WELL[] += {
-            "UK3CB_30rnd_556x45_B_HK33",
-            "UK3CB_30rnd_556x45_T_HK33",
-            "UK3CB_HK33_30rnd_556x45",
-            "UK3CB_HK33_30rnd_556x45_R",
-            "UK3CB_HK33_30rnd_556x45_RT",
-            "UK3CB_HK33_30rnd_556x45_G",
-            "UK3CB_HK33_30rnd_556x45_GT",
-            "UK3CB_HK33_30rnd_556x45_Y",
-            "UK3CB_HK33_30rnd_556x45_YT",
-            "UK3CB_HK33_30rnd_556x45_W",
-            "UK3CB_HK33_30rnd_556x45_WT",
-            "UK3CB_30rnd_556x45_B_HK33",
-            "UK3CB_30rnd_556x45_T_HK33"
         };
     };
 };

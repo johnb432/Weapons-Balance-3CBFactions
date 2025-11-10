@@ -1,24 +1,3 @@
-class uk3cb_ak47_base: Rifle_Base_F {
-    class WeaponSlotsInfo;
-};
-class uk3cb_ak47: uk3cb_ak47_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 75.5;
-    };
-};
-class uk3cb_ak47n: uk3cb_ak47 {
-    rhs_1p29_type = "rhs_acc_1p29";
-    rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
-    rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
-    rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
-    rhs_pkas_type = "rhs_acc_pkas";
-    rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
-    rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 76.5;
-    };
-};
-
 class UK3CB_FAMAS_F1_base: Rifle_Base_F {
     ACE_barrelLength = 488;
     ACE_barrelTwist = 304.8;
@@ -74,6 +53,15 @@ class UK3CB_M16A2_UGL: rhs_weap_m16a4_carryhandle_M203 {
     };
 };
 
+class UK3CB_AA12: Rifle_Base_F {
+    ACE_barrelLength = 330;
+    ace_overheating_closedBolt = 0;
+    displayName = "AA-12";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 100;
+    };
+};
+
 class UK3CB_Sten: SMG_02_F {
     displayName = "Sterling L2A3 (Mk.4)";
     magazineWell[] += {"CBA_9x19_STEN"};
@@ -109,7 +97,7 @@ class UK3CB_M1903A1_base: Rifle_Base_F {
 };
 class UK3CB_M1903A1: UK3CB_M1903A1_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 86;
+        mass = 88;
     };
 };
 class UK3CB_M1903A1_unertl: UK3CB_M1903A1_base {
@@ -118,9 +106,49 @@ class UK3CB_M1903A1_unertl: UK3CB_M1903A1_base {
     };
 };
 
-class rhs_weap_pp2000;
+class rhs_weap_scorpion;
+class UK3CB_Uzi: rhs_weap_scorpion {
+    magazineWell[] = {"CBA_9x19_UZI"};
+    rhs_fold = "UK3CB_Uzi_Stock";
+    rhs_fold_anim = "RHS_GestureFoldAKMS";
+    class WeaponSlotsInfo {
+        mass = 77;
+    };
+};
+class UK3CB_Uzi_Stock: UK3CB_Uzi {
+    rhs_fold = "UK3CB_Uzi";
+};
+
+class hgun_PDW2000_F;
+class rhs_weap_pp2000: hgun_PDW2000_F {
+    class WeaponSlotsInfo;
+};
 class uk3cb_ppsh41: rhs_weap_pp2000 {
     magazineWell[] = {"CBA_762x25_PPSh_Stick","CBA_762x25_PPSh_Drum"};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 80;
+    };
+};
+
+class UK3CB_Tec9: SMG_02_F {
+    ace_overheating_closedBolt = 0;
+};
+
+class Rifle_Long_Base_F: Rifle_Base_F {
+    class WeaponSlotsInfo;
+};
+class UK3CB_UK59: Rifle_Long_Base_F {
+    magazineWell[] += {"CBA_762x54R_Vz59_LINKS"};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 205;
+    };
+};
+class UK3CB_UK59N: UK3CB_UK59 {
+    magazineWell[] = {};
+};
+
+class uk3cb_HS50: Rifle_Long_Base_F {
+    ace_overheating_closedBolt = 1;
 };
 
 class hgun_P07_F;

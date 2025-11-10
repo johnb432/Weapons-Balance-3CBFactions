@@ -27,9 +27,6 @@ class UK3CB_G3A3_RIS: UK3CB_G3A3 {
         class PointerSlot {};
     };
 };
-class UK3CB_G3A3V: UK3CB_G3A3 {
-    class WeaponSlotsInfo;
-};
 class UK3CB_G3A3V_RIS: UK3CB_G3A3 {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 98.9;
@@ -66,7 +63,6 @@ class UK3CB_PSG1A1_RIS: UK3CB_PSG1A1 {
 };
 
 class UK3CB_HK33KA2: UK3CB_G3_Base {
-    magazineWell[] = {"UK3CB_556x45_HK33"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         delete Cowslot;
         class CowsSlot: UK3CB_OpticRail1913_G3 {};

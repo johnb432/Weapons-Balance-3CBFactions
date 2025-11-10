@@ -1,8 +1,4 @@
-class asdg_SlotInfo;
-class asdg_OpticRail: asdg_SlotInfo {
-    class compatibleItems;
-};
-
+class asdg_OpticRail;
 class niarms_m14_OpticRail: asdg_OpticRail {
     class compatibleItems {
         uk3cb_optic_pvs4_m14 = 1;

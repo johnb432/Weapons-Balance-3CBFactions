@@ -1,11 +1,57 @@
 #pragma hemtt flag pe23_ignore_has_include
 
-class UK3CB_Bren_L4_LMG;
-class UK3CB_Bren: UK3CB_Bren_L4_LMG {
+class LMG_Zafir_F;
+class UK3CB_Bren_L4_LMG: LMG_Zafir_F {
+    ACE_barrelLength = 615.95;
+    ACE_barrelTwist = 304.8;
     displayName = "Bren L4A2";
-    magazineWell[] = {"CBA_762x51_FAL", "CBA_762x51_FAL_L"};
+    magazineWell[] += {"CBA_762x51_FAL_L"};
     class WeaponSlotsInfo {
         mass = 191.5;
+    };
+};
+class UK3CB_Bren_303: UK3CB_Bren_L4_LMG {
+    ACE_barrelLength = 635;
+    ACE_barrelTwist = 254;
+    displayName = "Bren Mk.II";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 228.2;
+    };
+};
+
+class UK3CB_M1919A4_Browning: Rifle_Base_F {
+    ACE_barrelLength = 610;
+    ACE_barrelTwist = 254;
+    ace_overheating_closedBolt = 0;
+    displayName = "M1919A4";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 310;
+    };
+};
+class UK3CB_M1919A6_Browning: UK3CB_M1919A4_Browning {
+    displayName = "M1919A6";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 330.7;
+    };
+};
+
+class uk3cb_thompson_m1a1: SMG_02_F {
+    ace_overheating_closedBolt = 0;
+    displayName = "M1A1 Thompson";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 100;
+    };
+};
+class uk3cb_thompson_m1928a1: uk3cb_thompson_m1a1 {
+    displayName = "M1928A1 Thompson";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 100;
+    };
+};
+class uk3cb_thompson_m1928: uk3cb_thompson_m1928a1 {
+    displayName = "M1928 Thompson";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 100;
     };
 };
 
@@ -131,10 +177,24 @@ class UK3CB_MG3_Railed: UK3CB_MG3 {
     };
 };
 
-class LMG_Zafir_F;
+class UK3CB_RPD: LMG_Zafir_F {
+    magazineWell[] = {"CBA_762x39_RPD"};
+    class WeaponSlotsInfo {
+        mass = 163.1;
+    };
+};
+
 class UK3CB_RPK: LMG_Zafir_F {
+    ace_overheating_closedBolt = 1;
     class WeaponSlotsInfo {
         mass = 106;
+        class MuzzleSlot: asdg_MuzzleSlot_762R {};
+    };
+};
+class UK3CB_RPKN: UK3CB_RPK {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 107;
+        class CowsSlot: asdg_OpticSideRail_AK {};
     };
 };
 class UK3CB_RPK_74: UK3CB_RPK {

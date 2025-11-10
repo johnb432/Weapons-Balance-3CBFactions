@@ -1,10 +1,8 @@
 #pragma hemtt flag pe23_ignore_has_include
 
 class CA_Magazine;
-class 30Rnd_9x21_Mag;
 class 30Rnd_9x21_Mag_SMG_02;
 class UK3CB_CZ550_5rnd_Mag;
-class rhsusf_5Rnd_300winmag_xm2010;
 class rhsusf_100Rnd_762x51_m80a1epr;
 class UK3CB_M60_100rnd_762x51: rhsusf_100Rnd_762x51_m80a1epr {
     mass = 32.34;
@@ -94,7 +92,18 @@ class UK3CB_Sten_34Rnd_Magazine_R: 30Rnd_9x21_Mag_SMG_02 {
     mass = 11.5;
 };
 
+class UK3CB_M1919_50Rnd_3006_Magazine: rhsusf_100Rnd_762x51_m80a1epr {
+    mass = 20;
+};
+
+class rhs_100Rnd_762x54mmR;
+class UK3CB_UK59_100Rnd_762x54mmR_Magazine_R: rhs_100Rnd_762x54mmR {
+    displayname = "100rnd UK59 57-N-323S belt (Red)";
+    mass = 43;
+};
+
 #if __has_include("\hlc_wp_mp5\config.bin")
+    class 30Rnd_9x21_Mag;
     class UK3CB_MP5_30Rnd_9x19_Magazine: 30Rnd_9x21_Mag {
         modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
         modelSpecialIsProxy = 1;
@@ -131,6 +140,11 @@ class uk3cb_PPSH_71rnd_magazine_RM: CA_Magazine {
 };
 class uk3cb_PPSH_71rnd_magazine_RT: CA_Magazine {
     mass = 20.7;
+};
+
+class UK3CB_Uzi_32Rnd_Magazine: 30Rnd_9x21_Mag_SMG_02 {
+    mass = 11;
+    modelSpecial = "";
 };
 
 class UK3CB_CZ550_5rnd_Mag_W: UK3CB_CZ550_5rnd_Mag {

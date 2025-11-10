@@ -72,6 +72,8 @@ class CfgPatches {
             "UK3CB_Factions_Weapons_AK47",
             "UK3CB_Factions_Weapons_AUG",
             "UK3CB_Factions_Weapons_Bren",
+            "UK3CB_Factions_Weapons_Browning",
+            "UK3CB_Factions_Weapons_Enfield",
             "UK3CB_Factions_Weapons_FAMAS",
             "UK3CB_Factions_Weapons_FNFAL",
             "UK3CB_Factions_Weapons_G3",
@@ -89,7 +91,15 @@ class CfgPatches {
             "UK3CB_Factions_Weapons_STGW",
             "UK3CB_Factions_Weapons_SVD_OLD",
             "UK3CB_Factions_Weapons_UKM",
-            "UK3CB_Factions_Weapons_USP"
+            "UK3CB_Factions_Weapons_USP",
+            "UK3CB_Factions_Weapons_Uzi",
+            "UK3CB_Factions_Weapons2_AEK971",
+            "UK3CB_Factions_Weapons2_AK12",
+            "UK3CB_Factions_Weapons2_AR18",
+            "UK3CB_Factions_Weapons2_M1",
+            "UK3CB_Factions_Weapons2_RK62",
+            "UK3CB_Factions_Weapons2_TMG",
+            "UK3CB_Factions_Weapons2_UK59"
         };
         author = "johnb43";
         authors[] = {

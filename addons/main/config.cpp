@@ -72,6 +72,8 @@ class CfgPatches {
             "UK3CB_Factions_Weapons_AK47",
             "UK3CB_Factions_Weapons_AUG",
             "UK3CB_Factions_Weapons_Bren",
+            "UK3CB_Factions_Weapons_Browning",
+            "UK3CB_Factions_Weapons_Enfield",
             "UK3CB_Factions_Weapons_FAMAS",
             "UK3CB_Factions_Weapons_FNFAL",
             "UK3CB_Factions_Weapons_G3",
@@ -89,7 +91,15 @@ class CfgPatches {
             "UK3CB_Factions_Weapons_STGW",
             "UK3CB_Factions_Weapons_SVD_OLD",
             "UK3CB_Factions_Weapons_UKM",
-            "UK3CB_Factions_Weapons_USP"
+            "UK3CB_Factions_Weapons_USP",
+            "UK3CB_Factions_Weapons_Uzi",
+            "UK3CB_Factions_Weapons2_AEK971",
+            "UK3CB_Factions_Weapons2_AK12",
+            "UK3CB_Factions_Weapons2_AR18",
+            "UK3CB_Factions_Weapons2_M1",
+            "UK3CB_Factions_Weapons2_RK62",
+            "UK3CB_Factions_Weapons2_TMG",
+            "UK3CB_Factions_Weapons2_UK59"
         };
         author = "johnb43";
         authors[] = {
@@ -102,14 +112,15 @@ class CfgPatches {
 };
 
 #include "CfgAcc.hpp"
-#include "CfgAmmo.hpp"
 #include "CfgMagazineWells.hpp"
 
-class asdg_UnderSlot;
+class asdg_FrontSideRail;
 class asdg_OpticRail1913;
+class asdg_OpticSideRail_AK;
 class UK3CB_OpticRail1913_G3;
 class UK3CB_OpticRail1913_STGW57;
 class asdg_MuzzleSlot_545R;
+class asdg_MuzzleSlot_762R;
 
 class CfgWeapons {
     class Rifle;
@@ -117,13 +128,20 @@ class CfgWeapons {
         class WeaponSlotsInfo;
     };
 
-    class SMG_02_F;
+    class SMG_02_base_F;
+    class SMG_02_F: SMG_02_base_F {
+        class WeaponSlotsInfo;
+    };
 
     #include "weapons\CfgWeapMisc.hpp"
+    #include "weapons\CfgWeapAK.hpp"
+    #include "weapons\CfgWeapAR.hpp"
     #include "weapons\CfgWeapAUG.hpp"
+    #include "weapons\CfgWeapEnfield.hpp"
     #include "weapons\CfgWeapFAL.hpp"
     #include "weapons\CfgWeapG3.hpp"
     #include "weapons\CfgWeapG36.hpp"
+    #include "weapons\CfgWeapM1Carb.hpp"
     #include "weapons\CfgWeapM14.hpp"
     #include "weapons\CfgWeapMG.hpp"
     #include "weapons\CfgWeapMP5.hpp"
@@ -134,6 +152,8 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class rhs_30Rnd_762x39mm;
     class rhs_30Rnd_762x39mm_tracer;
+    class rhs_30Rnd_545x39_AK;
+    class rhs_30Rnd_545x39_AK_green;
 
     #include "magazines\CfgMagAK.hpp"
     #include "magazines\CfgMagFAL.hpp"
